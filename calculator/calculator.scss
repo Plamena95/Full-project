@@ -1,0 +1,93 @@
+@import "../home/header.scss";
+@import "../home/small-menu.scss";
+@import "../home/footer.scss";
+.main-hidden{
+  display: none;
+}
+#nav-click:hover{
+  .main-hidden{
+    display: block;
+  }
+}
+header {
+  padding-bottom: 20%;
+}
+body {
+  .calculator-header {
+    @include header();
+  }
+  main {
+      .calculator-form{
+          .calculator-form-header{
+            text-align: center;
+            h1{
+                color:#19456B;
+                font-size: 48px;
+                margin-bottom: 4%;
+            }
+            p{
+                margin-bottom: 4%;
+            }
+          }
+          .calculator-form-main{
+              div{
+                  input,
+                  select{
+                      outline: none;
+                      border: 1px solid #E1E1E1;
+                  }
+                  p{
+                      margin: 0;
+                  }
+              }
+          }
+        .calculator-form-submit{
+            text-align: center;
+            margin: 3% 0 5% 0;
+            button{
+                background: $primaryBtn;
+                color: white;
+                border: none;
+                padding: 5px 40px;
+            }
+          
+        }
+      }
+    .quality {
+      color: white;
+      padding: 50px;
+      margin-bottom: 7%;
+      background: linear-gradient(
+        123.62deg, rgba(0, 0, 142, 0.6) 31.11%, rgba(255, 255, 255, 6e-05) 79.13%);
+      h1 {
+        font-weight: 800;
+        font-size: 48px;
+      }
+      .quality-buttons button {
+        position: relative;
+        background: $primaryBtn;
+        color: white;
+        border: none;
+        padding: 5px 40px;
+      }
+      .quality-buttons button:hover{
+        background: #00008E;
+        transition: 0.5s;
+        -ms-transform: scale(1.11489, 1.10915);
+    -webkit-transform: scale(1.11489, 1.10915);
+    transform: scale(1.11489, 1.10915);
+      }
+      .quality-buttons button::after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f0da";
+        background:#00008E ;
+        color: white;
+        font-weight: bold;
+        padding: 5px 15px;
+        position: absolute;
+        right: -30px;
+        top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="blog.css" />
+  </head>
+  <body>
+   <header>
+    <section class="company-name col-10 d-flex justify-contend-around">
+      <article class="logo col-1 position-relative">
+        <img src="../img/Logo.png" alt="" />
+      </article>
+      <article class="options d-none d-md-flex justify-content-around">
+        <button class="me-5">Calculator</button>
+        <button>Tracking</button>
+      </article>
+    </section>
+    <section class="nav d-none d-md-flex col-10">
+      <nav class="col-9">
+        <ul id="header-nav" class="col-11 d-flex list-none justify-content-around">
+          <li id="nav-click" class="home py-0">
+            <a href="../home/index.html">Home</a>
+            <ul class="main-hidden">
+              <li><a href="../home3/homethree.html">Home 2</a></li>
+              <li><a href="../home2/hometwo.html">Home 3</a></li>
+            </ul>
+          </li>
+          <li id="nav-click" class="about py-0">
+            <a href="../about/about.html">About</a>
+            <ul class="main-hidden">
+              <li><a href="../quote/quote.html">Quote</a></li>
+              <li><a href="../warehouse/warehouse.html">Warehouse</a></li>
+              <li><a href="../frqs/frqs.html">FAQs</a></li>
+              <li><a href="../prices/prices.html">Prices</a></li>
+              <li><a href="../error/error.html">404</a></li>
+              <li><a href="../blog/blog.html">Blog</a></li>
+            </ul>
+          </li>
+          <li id="nav-click" class="services">
+            <a href="../services/services.html">Services</a>
+            <ul class="main-hidden">
+              <li>
+                <a href="../serviceDetails/serviceDetails.html"
+                  >Service Freight</a
+                >
+              </li>
+              <li><a href="../projects/projects.html">Projects</a></li>
+              <li><a href="../calculator/calculator.html">Calculator</a></li>
+            </ul>
+          </li>
+          <li class="py-0">
+            <a href="../prices/prices.html">Prices</a>
+          </li>
+          <li class="py-0">
+            <a href="../contacts/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <article class="tel col-2">
+        <p>+8 (495) 989 20 11</p>
+      </article>
+    </section>
+    <div class="nav-bar d-block d-md-none col-10 mx-auto text-end">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="company-name-image">
+      <img src="../img/Rolso2.png" alt="" />
+    </div>
+  </header>
+  <section class="small-menu" id="show">
+    <div class="close-button col-10 mx-auto">
+      <div class="close-button-section">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+    <div class="small-menu-content d-flex">
+      <ul id="showContent" class="col-3">
+        <div id="smallMenuContent" class="d-flex justify-content-between">
+          <li>
+            <a href="#">HOME</a>
+            <ul class="small-hidden">
+              <li><a href="../home3/homethree.html">HOME 2</a></li>
+              <li><a href="../home2/hometwo.html">HOME 3</a></li>
+            </ul>
+          </li>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div id="smallMenuContent" class="d-flex justify-content-between">
+          <li>
+            <a href="../about/about.html">ABOUT</a>
+            <ul class="small-hidden">
+              <li><a href="../quote/quote.html">QUOTE</a></li>
+              <li><a href="../warehouse/warehouse.html">WAREHOUSE</a></li>
+              <li><a href="../frqs/frqs.html">FAQS</a></li>
+              <li><a href="../error/error.html">404</a></li>
+              <li>
+                <a href="../blog/blog.html">BLOG</a>
+                <ul>
+                  <li><a href="../posts/posts.html">POSTS</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li class="small-hidden">
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div id="smallMenuContent" class="d-flex justify-content-between">
+          <li>
+            <a href="../services/services.html">SERVICES</a>
+            <ul class="small-hidden">
+              <li><a href="../projects/projects.html">PROJECTS</a></li>
+              <li><a href="../calculator/calculator.html">CALCULATOR</a></li>
+              <li>
+                <a href="../serviceDetails/serviceDetails.html"
+                  >SERVICE DETAILS</a
+                >
+              </li>
+            </ul>
+          </li>
+          <i class="fas fa-caret-down"></i>
+        </div>
+          <li><a href="../prices/prices.html">PRICES</a></li>
+        <li><a href="../contacts/contacts.html">CONTACTS</a></li>
+      </ul>
+    </div>
+    <div class="flying-objects">
+      <img
+        class="flying-object-dots"
+        src="https://ideogen.unbelievable.digital/assets/images/dots-header.svg"
+        alt=""
+      />
+      <img
+        class="flying-object-oval"
+        src="https://ideogen.unbelievable.digital/assets/images/mobile-oval.svg"
+        alt=""
+      />
+    </div>
+  </section>
+    <section class="blog-header position-relative col-12 col-lg-5">
+      <h1>Blog</h1>
+      <p>Home / Blog</p>
+    </section>
+    <main class="d-flex flex-column-reverse flex-lg-row col-10 justify-content-between mx-auto">
+      <section class="blogs col-12 col-lg-7">
+        <article>
+          <div class="blog-picture my-4">
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/preparation-before-flight-loading-of-cargo-containers-to-airplane-at-airport--768x512.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-container">
+            <div class="blog-container-info d-flex justify-content-between col-12 col-lg-6">
+              <div class="date d-flex col-3">
+                <p>28 Jan 2021</p>
+              </div>
+              <p class="blogger col-3">merkulove</p>
+              <p class="theme col-3">cargo, logistic</p>
+            </div>
+            <h1 class=" col-12 col-lg-10">Excellent company quality services</h1>
+            <p class="col-12 col-lg-10">
+              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
+              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="blog-picture my-4">
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/courier-checking-cardboard-boxes-and-cargo-declaration-768x513.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-container">
+            <div class="blog-container-info d-flex justify-content-between col-12 col-lg-6">
+              <div class="date d-flex col-3">
+                <p>28 Jan 2021</p>
+              </div>
+              <p class="blogger col-3">merkulove</p>
+              <p class="theme col-3">cargo, logistic</p>
+            </div>
+            <h1 class=" col-12 col-lg-10">Road, Air And Sea Transport Are Available</h1>
+            <p class="col-12 col-lg-10">
+              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
+              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="blog-picture my-4">
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-truck-in-container-depot-768x512.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-container">
+            <div class="blog-container-info d-flex justify-content-between col-12 col-lg-6">
+              <div class="date d-flex col-3">
+                <p>28 Jan 2021</p>
+              </div>
+              <p class="blogger col-3">merkulove</p>
+              <p class="theme col-3">cargo, logistic</p>
+            </div>
+            <h1 class="col-12 col-lg-10">Packaging And Logistics Services To The World</h1>
+            <p class="col-12 col-lg-10">
+              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
+              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="blog-picture my-4">
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-ships-in-port-being-loaded-768x512.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-container">
+            <div class="blog-container-info d-flex justify-content-between col-12 col-lg-6">
+              <div class="date d-flex col-3">
+                <p>28 Jan 2021</p>
+              </div>
+              <p class="blogger col-3">merkulove</p>
+              <p class="theme col-3">cargo, logistic</p>
+            </div>
+            <h1 class="col-12 col-lg-10">Plane Transport To The Variety Countries</h1>
+            <p class="col-12 col-lg-10">
+              Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis
+              venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
+            </p>
+          </div>
+        </article>
+        <article>
+          <div class="blog-picture my-4">
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/logistics-business-at-harbor-of-rotterdam-netherlands-cranes-and-cargo-loading-unloading-768x512.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-container">
+            <div class="blog-container-info d-flex justify-content-between col-12 col-lg-6">
+              <div class="date d-flex col-3">
+                <p>28 Jan 2021</p>
+              </div>
+              <p class="blogger col-3">merkulove</p>
+              <p class="theme col-3">cargo, logistic</p>
+            </div>
+            <h1 class="col-12 col-lg-10">The Passenger Transport Public Operators.</h1>
+            <p class="col-12 col-lg-10">Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit</p>
+            <p class="more"></p>
+          </div>
+        </article>
+        <article>
+          <div class="blog-picture my-4">
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/happy-cargo-coworkers-768x512.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-container">
+            <div class="blog-container-info d-flex justify-content-between col-12 col-lg-6">
+              <div class="date d-flex col-3">
+                <p>28 Jan 2021</p>
+              </div>
+              <p class="blogger col-3">merkulove</p>
+              <p class="theme col-3">cargo, logistic</p>
+            </div>
+            <h1 class="col-12 col-lg-10">Air Transport May Be Public Operators</h1>
+            <p class="col-12 col-lg-10">Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit</p>
+            <p class="more"></p>
+          </div>
+        </article>
+      </section>
+      <section class="posts-sidebar  col-lg-3 mb-5 mb-lg-0">
+        <section class="quick-menu-categories">
+          <div class="categories-header d-flex col-12">
+            <div class="header-content col-10">Categories</div>
+            <div class="header-image-categories col-2 d-flex justify-content-center">
+              <i class="far fa-folder-open"></i>
+            </div>
+          </div>
+          <div class="categories-content py-3">
+            <div class="d-flex justify-content-between ps-3">
+              <p>Cargo</p>
+              <p>14</p>
+            </div>
+            <div class="d-flex justify-content-between ps-3">
+              <p>Services</p>
+              <p>45</p>
+            </div>
+            <div class="d-flex justify-content-between ps-3">
+              <p>Trucks</p>
+              <p>67</p>
+            </div>
+            <div class="d-flex justify-content-between ps-3">
+              <p>Logistic</p>
+              <p>4</p>
+            </div>
+          </div>
+        </section>
+        <section class="quick-menu-posts">
+          <div class="posts-header d-flex col-12">
+            <div class="posts-content col-10">Latest Posts</div>
+            <div class="header-image-description col-2 d-flex justify-content-center">
+              <i class="far fa-images"></i>
+            </div>
+          </div>
+          <div class="posts-content py-4">
+            <div class="d-flex justify-content-between">
+              <div class="posts-picture col-4">
+                <img class="col-11" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-boxes-storing-at-warehouse-shelves-300x200.jpg" alt="">
+              </div>
+              <div class="posts-content-description col-8">
+                <p>Excellent company quality services</p>
+                  <p>28 Jan 2021</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="posts-picture col-4">
+                <img class="col-11" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/courier-checking-cardboard-boxes-and-cargo-declaration-300x200.jpg" alt="">
+              </div>
+              <div class="posts-content-description col-8">
+                <p>Packaging And Logistics Services To The World</p>
+                  <p>28 Jan 2021</p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="posts-picture col-4">
+                <img class="col-11" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-boxes-storing-at-warehouse-shelves-300x200.jpg" alt="">
+              </div>
+              <div class="posts-content-description col-8">
+                <p>Packaging And Logistics Services To The World</p>
+
+                  <p>28 Jan 2021</p>
+
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-between">
+              <div class="posts-picture col-4">
+                <img class="col-11" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-boxes-storing-at-warehouse-shelves-300x200.jpg" alt="">
+
+              </div>
+              <div class="posts-content col-8">
+                <p>Plane Transport To The Variety Countries</p>
+                  <p>28 Jan 2021</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="quick-menu-arhives">
+          <div class="arhives-header d-flex col-12">
+            <div class="header-content col-10">Latest Posts</div>
+            <div class="header-image-description col-2 d-flex justify-content-center">
+                <i class="far fa-calendar-check"></i>
+            </div>
+          </div>
+          <div class="arhives-content py-3">
+            <nav>
+              <ul>
+                <li>November</li>
+                <li>December</li>
+                <li>January</li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <section class="quick-menu-comments">
+          <div class="comments-header d-flex col-12">
+            <div class="header-content col-10">Recent Comments</div>
+            <div class="header-image-description col-2 d-flex justify-content-center">
+              <i class="far fa-comment-alt"></i>                </div>
+          </div>
+          <div class="arhives-content py-3">
+            <nav>
+              <ul>
+                <li class="pb-2"><span>Admin</span> in Powerfull Features of Transporterium</li>
+                <li class="pb-2"><span>Admin</span> in Powerfull Features of Transporterium</li>
+                <li class="pb-2"><span>Admin</span> in Powerfull Features of Transporterium</li>
+              </ul>
+            </nav>
+          </div>
+        </section>
+</section>
+    </main>
+    <section class="pages-navigation">
+      <nav class="col-2 mx-auto">
+        <ul class="page-navigation d-flex justify-content-center col-12">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+        </ul>
+      </nav>
+    </section>
+    <footer>
+      <section class="footer-content d-flex justify-content-between col-8 m-auto flex-wrap">
+        <section class="social-media col-12 col-md-6 col-lg-4 ">
+          <article class="footer-logo d-flex col-2 align-items-center my-4 my-lg-0">
+            <img class="img-fluid" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cropped-rolso-logo_light.png" alt="">
+            <h1>Rolso</h1>
+          </article>
+          <p>
+            Nam laoreet est et dui scelerisque, vel rutrum diam fringilla. In
+            nec convallis nisi. Duis vitae ornare massa, vitae iaculis tellus.
+            Sed ultricies tempus metus ut posuere.
+          </p>
+          <article class="social-media-icons py-5 py-lg-0 d-flex col-3 col-md-6 col-xl-4 justify-content-between">
+            <div class="tweeter col-3 ">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="linkedin col-3">
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="youtube col-3">
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </article>
+        </section>
+        <section class="footer-quick-menu col-12 col-md-4 col-lg-2">
+          <nav>
+            <ul>
+              <li>Calculator</li>
+              <li>Shipment Tracking</li>
+              <li>Services</li>
+              <li>Prices</li>
+              <li>Trucks</li>
+              <li>Careers</li>
+            </ul>
+          </nav>
+        </section>
+        <section class="subscribe col-12 col-md-6 col-lg-4">
+          <h4>Subscribe</h4>
+          <p>
+            Curabitur quis porttitor augue, et posuere ligula. Nunc sagittis
+            vestibulum
+          </p>
+          <div class="ask">
+            <input type="email" placeholder="Enter Your Email" />
+            <button>
+              <i class="fab fa-telegram-plane"></i>
+            </button>
+          </div>
+        </section>
+      </section>
+      <section class="footer-contacts d-flex justify-contend-center col-8 mx-auto flex-wrap mb-5 mb-lg-0">
+        <article class="phone col-12 col-md-6 col-lg-4 d-flex ">
+          <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/telephone.png" alt="" />
+          <article class="phone-info">
+            <p>Phone</p>
+            <p>+8 (495) 989 20 11</p>
+          </article>
+        </article>
+        <article class="location col-12 col-md-6 col-lg-4 d-flex">
+          <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/placeholder.png" alt="">
+          <article class="location-info">
+            <p>Location</p>
+            <p>4621 Hill Croft Farm Road</p>
+          </article>
+        </article>
+        <article class="email col-12 col-md-6 col-lg-4 d-flex">
+         <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/email.png" alt="">
+          <article class="email-info">
+            <p>Email</p>
+            <p>rolso.office@gmail.com</p>
+          </article>
+        </article>
+      </section>
+      <div class="copyright text-center py-4 py-lg-0">
+          <p>Merkulove © Rolso Template All rights reserved Copyrights 2021</p>
+      </div>
+    </footer>
+    <script src="blog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="home/splide.min.css">
+    <link rel="stylesheet" href="home/splide.min.css">
+    <link rel="stylesheet" href="home/header.css" />
+    <link rel="stylesheet" href="home/footer.css" />
+    <link rel="stylesheet" href="home/main.css" />
+    <link rel="stylesheet" href="home/responsive.css" />
+    <link rel="stylesheet" href="home/small-menu.css" />
+  </head>
+  <body>
+    <header>
+      <section class="company-name col-10 d-flex justify-contend-around">
+        <article class="logo col-1 position-relative">
+          <img src="../img/Logo.png" alt="" />
+        </article>
+        <article class="options d-none d-md-flex justify-content-around">
+          <button class="me-5">Calculator</button>
+          <button>Tracking</button>
+        </article>
+      </section>
+      <section class="nav d-none d-md-flex col-10">
+        <nav class="col-9">
+          <ul id="header-nav" class="col-11 d-flex list-none justify-content-around">
+            <li id="nav-click" class="home py-0">
+              <a href="#">Home</a>
+              <ul class="main-hidden">
+                <li><a href="home3/homethree.html">Home 2</a></li>
+                <li><a href="home2/hometwo.html">Home 3</a></li>
+              </ul>
+            </li>
+            <li id="nav-click" class="about py-0">
+              <a href="about/about.html">About</a>
+              <ul class="main-hidden">
+                <li><a href="quote/quote.html">Quote</a></li>
+                <li><a href="warehouse/warehouse.html">Warehouse</a></li>
+                <li><a href="frqs/frqs.html">FAQs</a></li>
+                <li><a href="prices/prices.html">Prices</a></li>
+                <li><a href="error/error.html">404</a></li>
+                <li><a href="blog/blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li id="nav-click" class="services">
+              <a href="services/services.html">Services</a>
+              <ul class="main-hidden">
+                <li>
+                  <a href="serviceDetails/serviceDetails.html"
+                    >Service Freight</a
+                  >
+                </li>
+                <li><a href="projects/projects.html">Projects</a></li>
+                <li><a href="calculator/calculator.html">Calculator</a></li>
+              </ul>
+            </li>
+            <li class="py-0">
+              <a href="prices/prices.html">Prices</a>
+            </li>
+            <li class="py-0">
+              <a href="contacts/contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <article class="tel col-2">
+          <p>+8 (495) 989 20 11</p>
+        </article>
+      </section>
+      <div class="nav-bar d-block d-md-none col-10 mx-auto text-end">
+        <i class="fas fa-bars"></i>
+      </div>
+      <section class="header-main col-10">
+        <div class="consultation">
+          <h1>Transportation services around the World</h1>
+          <p class="col-9">
+            Curabitur congue finibus lorem, at dignissim metus elementum sit
+            amet. Mauris eget dapibus quam. Integer a ante rutrum, semper risus
+            a, blandit elit. Nunc dolor purus, condimentum ut lorem in,
+            tincidunt consequat erat.
+          </p>
+          <div class="consultation-buttons d-flex">
+            <button>Consultation</button>
+            <button><i class="fas fa-caret-right"></i></button>
+          </div>
+        </div>
+      </section>
+      <div class="company-name-image">
+        <img src="img/Rolso2.png" alt="" />
+      </div>
+    </header>
+    <section class="small-menu" id="show">
+      <div class="close-button col-10 mx-auto">
+        <div class="close-button-section">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="small-menu-content d-flex">
+        <ul id="showContent" class="col-3">
+          <div id="smallMenuContent" class="d-flex justify-content-between">
+            <li>
+              <a href="#">HOME</a>
+              <ul class="small-hidden">
+                <li><a href="home3/homethree.html">HOME 2</a></li>
+                <li><a href="home2/hometwo.html">HOME 3</a></li>
+              </ul>
+            </li>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div id="smallMenuContent" class="d-flex justify-content-between">
+            <li>
+              <a href="about/about.html">ABOUT</a>
+              <ul class="small-hidden">
+                <li><a href="quote/quote.html">QUOTE</a></li>
+                <li><a href="warehouse/warehouse.html">WAREHOUSE</a></li>
+                <li><a href="frqs/frqs.html">FAQS</a></li>
+                <li><a href="error/error.html">404</a></li>
+                <li>
+                  <a href="blog/blog.html">BLOG</a>
+                  <ul>
+                    <li><a href="posts/posts.html">POSTS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li class="small-hidden">
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div id="smallMenuContent" class="d-flex justify-content-between">
+            <li>
+              <a href="services/services.html">SERVICES</a>
+              <ul class="small-hidden">
+                <li><a href="projects/projects.html">PROJECTS</a></li>
+                <li><a href="calculator/calculator.html">CALCULATOR</a></li>
+                <li>
+                  <a href="serviceDetails/serviceDetails.html"
+                    >SERVICE DETAILS</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <i class="fas fa-caret-down"></i>
+          </div>
+            <li><a href="prices/prices.html">PRICES</a></li>
+          <li><a href="contacts/contacts.html">CONTACTS</a></li>
+        </ul>
+      </div>
+      <div class="flying-objects">
+        <img
+          class="flying-object-dots"
+          src="https://ideogen.unbelievable.digital/assets/images/dots-header.svg"
+          alt=""
+        />
+        <img
+          class="flying-object-oval"
+          src="https://ideogen.unbelievable.digital/assets/images/mobile-oval.svg"
+          alt=""
+        />
+      </div>
+    </section>
+    <main>
+      <section
+        class="
+          service-main
+          flex-column-reverse flex-md-column flex-lg-row
+          col-11 col-md-12 col-md-11 col-lg-8
+          px-5
+          py-5
+        "
+      >
+        <article
+          class="
+            service-main-first
+            flex-column flex-md-row
+            col-12
+            justify-content-between justify-content-lg-start
+            col-lg-9
+            flex-wrap
+          "
+        >
+          <div
+            class="
+              scroll-down
+              worldwide
+              col-12 col-md-5
+              my-4 my-md-0
+              d-flex
+              flex-column flex-md-row
+              justify-content-between
+              align-items-start
+              animate__animated
+            "
+            data-aos="fade-up"
+          >
+            <img
+              class="img-fluid pe-3 align-self-center align-self-md-start"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/worldwide-pin.png"
+              alt=""
+            />
+            <div
+              class="
+                worldwide-container
+                align-self-center align-self-md-start
+                text-center text-md-start
+              "
+            >
+              <h6>Worldwide</h6>
+              <p>Aliquam erat volutpat. Ut ut erat dignissim, eleifend</p>
+            </div>
+          </div>
+          <div
+            class="
+              scroll-down
+              support
+              col-12 col-md-5
+              my-4 my-md-0
+              d-flex
+              flex-column flex-md-row
+              justify-content-between
+              align-items-start
+              animate__animated
+            "
+            data-aos="fade-up"
+          >
+            <img
+              class="img-fluid pe-3 align-self-center align-self-md-start"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/24-hours.png"
+              alt=""
+            />
+            <div
+              class="
+                support-container
+                align-self-center align-self-md-start
+                text-center text-md-start
+              "
+            >
+              <h6>Support 24/7</h6>
+              <p>
+                Maecenas dapibus mauris ornare, facilisis magna ut, pellentesque
+              </p>
+            </div>
+          </div>
+          <div
+            class="
+              scroll-down
+              ontime
+              col-12 col-md-5
+              my-4 my-md-0
+              d-flex
+              flex-column flex-md-row
+              justify-content-between
+              align-items-start
+              animate__animated
+            "
+            data-aos="fade-up"
+          >
+            <img
+              class="img-fluid pe-3 align-self-center align-self-md-start"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/truck-delay.png"
+              alt=""
+            />
+            <div
+              class="
+                ontime-container
+                align-self-center align-self-md-start
+                text-center text-md-start
+              "
+            >
+              <h6>Always on time</h6>
+              <p>Aliquam erat volutpat. Ut ut erat dignissim, eleifend</p>
+            </div>
+          </div>
+          <div
+            class="
+              scroll-down
+              warehouse
+              col-12 col-md-5
+              my-4 my-md-0
+              d-flex
+              flex-column flex-md-row
+              justify-content-between
+              align-items-start
+              animate__animated
+            "
+            data-aos="fade-up"
+          >
+            <img
+              class="img-fluid pe-3 align-self-center align-self-md-start"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/box.png"
+              alt=""
+            />
+            <div
+              class="
+                warehouse-container
+                align-self-center align-self-md-start
+                text-center text-md-start
+              "
+            >
+              <h6>Warehouse</h6>
+              <p>Nam imperdiet erat in elit malesuada, et consequat nisl</p>
+            </div>
+          </div>
+          <div
+            class="
+              scroll-down
+              online
+              col-12 col-md-5
+              my-4 my-md-0
+              d-flex
+              flex-column flex-md-row
+              justify-content-between
+              align-items-start
+              animate__animated
+            "
+            data-aos="fade-up"
+          >
+            <img
+              class="img-fluid pe-3 align-self-center align-self-md-start"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/qr-code.png"
+              alt=""
+            />
+            <div
+              class="
+                online-container
+                align-self-center align-self-md-start
+                text-center text-md-start
+              "
+            >
+              <h6>Online Tracking</h6>
+              <p>Nam imperdiet erat in elit malesuada, et consequat nisl</p>
+            </div>
+          </div>
+          <div
+            class="
+              scroll-down
+              cargo
+              col-12 col-md-5
+              my-4 my-md-0
+              d-flex
+              flex-column flex-md-row
+              justify-content-between
+              align-items-start
+              animate__animated
+            "
+            data-aos="fade-up"
+          >
+            <img
+              class="img-fluid pe-3 align-self-center align-self-md-start"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/check-list.png"
+              alt=""
+            />
+            <div
+              class="
+                cargo-container
+                align-self-center align-self-md-start
+                text-center text-md-start
+              "
+            >
+              <h6>Cargo Insurance</h6>
+              <p>Suspendisse vulputate tellus consectetur sem faucibus</p>
+            </div>
+          </div>
+        </article>
+        <article
+          class="
+            service-main-second
+            scroll-down
+            col-12
+            ms-md-0
+            mx-auto
+            ali
+            col-md-6 col-lg-4
+            position-static position-md-relative
+          "
+        >
+          <h3>Services</h3>
+          <ul>
+            <li>Road Freight</li>
+            <li>Shipping Freight</li>
+            <li>Air Freight</li>
+            <li>Train Freight</li>
+          </ul>
+          <nav class="all-services d-flex">
+            <p>All services</p>
+            <p><i class="fas fa-long-arrow-alt-right"></i></p>
+          </nav>
+        </article>
+      </section>
+      <section class="logistic-services  col-8">
+        <h1 class="col-8 scroll-up animate__animated">
+          Rolso Logistic Services
+        </h1>
+        <section
+          class="
+            logistic-services-images
+            align-items-center
+            d-flex
+            col-12
+            mx-auto
+            justify-content-center
+            mt-5
+          "
+        >
+          <div class="col-3 logistic-img-section">
+            <img
+            class="ima-fluid "
+            src="delivery-man-with-clipboard.jpg"
+            alt=""
+          />
+          <div>
+            <img src="Shape (3).png" alt="">
+            <p class="col-6">Shipping
+              Freight</p>
+          </div>
+          </div>
+   <div class="col-3 logistic-img-section">
+    <img  src="place-flying-sunset-sky.jpg" alt="" />
+    <div>
+      <img src="Shape (3).png" alt="">
+      <p class="col-6">Shipping
+        Freight</p>
+    </div>
+   </div>
+   <div class="col-3 logistic-img-section">
+    <img
+    
+    src="aerial-view-container-cargo-ship-sea.jpg"
+    alt=""
+  />    <div>
+    <img src="Shape (3).png" alt="">
+      <p class="col-6">Shipping
+        Freight</p>
+    </div>
+   </div>
+   <div class="col-3 logistic-img-section">
+    <img
+    
+    src="unknown-industrial-ship-mediterranean-sea.jpg"
+    alt=""
+  />    <div>
+    <img src="Shape (3).png" alt="">
+      <p class="col-6">Shipping
+        Freight</p>
+    </div>
+   </div>
+        </section>
+      </section>
+      <section class="company-description d-block d-lg-flex">
+        <article class="company-description-first-container col-12 col-lg-6">
+          <img
+            class="img-fluid"
+            src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/joao-silveira-DYIitvTuoD0-unsplash-1-767x1024.jpg"
+            alt=""
+          />
+          <div
+            class="
+              first-container-description
+              d-flex
+              flex-column
+              align-items-start align-items-lg-end
+            "
+          >
+            <h1 class="col-9 scroll-up animate__animated">
+              <strong>Rolso</strong> transportation company
+            </h1>
+            <p class="col-9 scroll-up animate__animated">
+              Sed pulvinar ligula sapien, eget tincidunt mauris sollicitudin
+              sed. Vivamus vel nisl diam.
+            </p>
+            <div
+              class="
+                numberic
+                scroll-down
+                mx-auto
+                d-flex
+                justify-content-between
+                col-11
+                animate__animated
+              "
+            >
+              <div class="packages col-6 d-flex align-items-start">
+                <div class="packages-img col-5 h-100">
+                  <img
+                    class="img-fluid h-100"
+                    src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/Delivered-packeges.png"
+                    alt=""
+                  />
+                </div>
+                <div class="packages-description col-6 ps-3 h-100">
+                  <div
+                    class="
+                      packages-description-contain
+                      d-flex
+                      flex-column
+                      justify-contend-center
+                      h-100
+                    "
+                  >
+                    <h1>1255+</h1>
+                    <p>Delivered packeges</p>
+                  </div>
+                </div>
+              </div>
+              <div class="history col-6 d-flex align-items-start">
+                <div class="history-img col-5 h-100">
+                  <img
+                    class="img-fluid h-100"
+                    src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/Total-warehouse-area.png"
+                    alt=""
+                  />
+                </div>
+                <div class="history-description col-6 ps-3 h-100">
+                  <div
+                    class="
+                      history-description-contain
+                      d-flex
+                      flex-column
+                      justify-contend-center
+                      h-100
+                    "
+                  >
+                    <p><strong>50</strong>years</p>
+                    <p>Total warehouse area</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article
+          class="
+            company-description-second-container
+            col-12 col-lg-6
+            animate__animated
+          "
+        >
+          <div class="first-container-description p-5">
+            <h1 class="scroll-up animate__animated">
+              Excellent company quality services
+            </h1>
+            <p class="scroll-up animate__animated">
+              Donec lacinia purus et nisl dignissim, vel egestas nunc iaculis.
+              Maecenas elementum elementum ipsum, sit amet lacinia lectus
+              vulputate nec.
+            </p>
+            <div
+              class="
+                second-container-button
+                scroll-down
+                d-flex
+                align-items-start
+                animate__animated
+              "
+            >
+              <button>Appointement</button>
+              <button><i class="fas fa-caret-right"></i></button>
+            </div>
+          </div>
+          <img
+            src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/aerial-view-of-general-cargo-ship-in-blue-sea-view-from-above-1536x1151.jpg"
+            alt=""
+          />
+        </article>
+      </section>
+      <section
+        class="
+          your-info
+          d-block d-lg-flex
+          col-10
+          mx-auto
+          justify-content-between
+          align-items-center
+        "
+      >
+        <section class="consultation-info py-5 py-lg-0600 col-12 col-lg-4">
+          <h1 class="left-bounce animate__animated">How much will i earn?</h1>
+          <p class="left-bounce animate__animated">
+            Maecenas dignissim, massa sed imperdiet fermentum, metus orci
+            vehicula sapien, eu posuere.
+          </p>
+          <div class="our-number">
+            <p>Call us for consultation</p>
+            <h1 class="bounce animate-animated">+8 (495) 989 20 11</h1>
+          </div>
+        </section>
+        <section class="customer-info-section col-12 col-lg-6">
+          <article
+            class="customer-info-container d-flex justify-content-between"
+          >
+            <div class="name col-5">
+              <h6>Full Name</h6>
+              <input type="text" placeholder="John Doe" />
+            </div>
+            <div class="phone col-5">
+              <h6>Phone</h6>
+              <input type="tel" placeholder="+1 234 456 7890" />
+            </div>
+            <div class="email col-5">
+              <h6>Email</h6>
+              <input type="email" placeholder="JonhDoe@gmail.com" />
+            </div>
+            <div class="subject col-5">
+              <h6>Subject</h6>
+              <input type="text" placeholder="Road Freight" />
+            </div>
+            <div class="message col-12">
+              <h6>Message</h6>
+              <textarea
+                class="col-12"
+                placeholder="Text"
+                name=""
+                id=""
+                rows="5"
+              ></textarea>
+            </div>
+          </article>
+          <article class="appoitment">
+            <button>Appointment</button>
+          </article>
+        </section>
+        <section class="gallery carousel">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </section>
+      </section>
+      <div class=" main-images d-block d-md-flex justify-content-between">
+        <div class=" col-12 main-images-container
+        position-relative">
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide d-flex justify-content-start"><img class="left col-10 item" src="home/aerial-view-container-cargo-ship-sea (1).jpg" alt="" /></li>
+              <li class="splide__slide d-flex justify-content-center">  <img class="col-10 item" src="home/aerial-view-container-cargo-ship-sea.jpg" alt="" /></li>
+              <li class="splide__slide d-flex justify-content-end"> <img class="right col-10 item" src="home/aerial-view-container-cargo-ship-sea.jpg" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+         
+        </div>
+      </div>
+    </div>
+          <div class="image-description scroll-up col-2 position-relative d-flex flex-column animate__animated">
+            <h3>Provide quick tracking your cargo</h3>
+            <p>
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra
+            </p>
+            <p class="services">All Services</p>
+          </div>
+
+      <section class="prices col-9 mx-auto">
+        <h1
+          class="
+            col-12 col-md-9 col-lg-8
+            mx-auto
+            text-center
+            scroll-up
+            animate__animated
+          "
+        >
+          The right price for you, whoever you are
+        </h1>
+        <p
+          class="
+            col-12 col-md-9 col-lg-8
+            mx-auto
+            text-center
+            py-4
+            scroll-up
+            animate__animated
+          "
+        >
+          Donec varius, nisi sed cursus varius, dolor dui vehicula enim, eu
+          porttitor lacus metus vitae nibh. Etiam efficitur lorem et lorem
+          ultricies mollis. Sed non bibendum orci. Cras non mi sagittis,
+          vehicula erat ut, posuere orci
+        </p>
+        <div
+          class="
+            prices-button
+            scroll-down
+            d-flex
+            align-items-start
+            justify-content-center
+          "
+        >
+          <button>Consultation</button>
+          <button><i class="fas fa-caret-right"></i></button>
+        </div>
+        <section class="prices-pack">
+          <div
+            class="
+              prices-pack-header
+              col-12
+              text-center
+              d-flex
+              justify-content-center
+            "
+          >
+            <p class="col-2">Best Offer</p>
+          </div>
+          <section
+            class="
+              prices-plans
+              scroll-down
+              d-block d-md-flex
+              flex-wrap
+              col-12
+              justify-content-between justify-content-lg-around
+              mx-auto
+              animate__animated
+            "
+          >
+            <article class="basic col-10 mx-auto col-md-6 mb-2 m col-lg-3">
+              <div class="header d-flex justify-content-between">
+                <p class="col-3">Basic</p>
+                <p class="col-3">Save 10%</p>
+              </div>
+              <div class="monthly-price">
+                <p><strong>$25</strong>/mo</p>
+                <p>Only $85 per year</p>
+              </div>
+              <div class="description">
+                <ul>
+                  <li>Ut consequat rhoncus nisi vel</li>
+                  <li>Class aptent taciti sociosqu</li>
+                  <li>Proin non mattis augue. In vehicula</li>
+                </ul>
+              </div>
+              <div class="buy-button">
+                <button>Buy Now</button>
+              </div>
+            </article>
+
+            <article class="full-pack mx-auto col-10 col-md-6 mb-2 col-lg-3">
+              <div class="header d-flex justify-content-between">
+                <p class="col-3">Full Pack</p>
+                <p class="col-3">Save 20%</p>
+              </div>
+              <div class="monthly-price">
+                <p><strong>$75</strong>/mo</p>
+                <p>Only $165 per year</p>
+              </div>
+              <div class="description">
+                <ul>
+                  <li>Ut consequat rhoncus nisi vel</li>
+                  <li>Class aptent taciti sociosqu</li>
+                  <li>Proin non mattis augue. In vehicula</li>
+                </ul>
+              </div>
+              <div class="buy-button">
+                <button>Buy Now</button>
+              </div>
+            </article>
+            <article class="advanced mx-auto col-10 col-md-6 col-lg-3">
+              <div class="header d-flex justify-content-between">
+                <p class="col-3">Advanced</p>
+                <p class="col-3">Save 15%</p>
+              </div>
+              <div class="monthly-price">
+                <p><strong>$25</strong>/mo</p>
+                <p>Only $120 per year</p>
+              </div>
+              <div class="description">
+                <ul>
+                  <li>Ut consequat rhoncus nisi vel</li>
+                  <li>Class aptent taciti sociosqu</li>
+                  <li>Proin non mattis augue. In vehicula</li>
+                </ul>
+              </div>
+              <div class="buy-button">
+                <button>Buy Now</button>
+              </div>
+            </article>
+          </section>
+        </section>
+      </section>
+      <section class="map">
+        <h1 class="col-7 text-center mx-auto my-5 scroll-up animate__animated">
+          We provide future of delivery
+        </h1>
+        <section class="map-content col-10 mx-auto">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                width="1500"
+                height="500"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D1%81%D0%BE%D1%84%D0%B8%D1%8F%201%20varna&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+              ></iframe
+              ><a href="https://123movies-to.org">123 movies</a><br /><style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 500px;
+                  width: 1500px;
+                }</style
+              ><a href="https://www.embedgooglemap.net"
+                >embedding google maps in webpage</a
+              ><style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 500px;
+                  width: 1500px;
+                }
+              </style>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section
+        class="
+          footer-content
+          d-flex
+          justify-content-between
+          col-8
+          m-auto
+          flex-wrap
+        "
+      >
+        <section class="social-media col-12 col-md-6 col-lg-4">
+          <article
+            class="footer-logo d-flex col-2 align-items-center my-4 my-lg-0"
+          >
+            <img
+              class="img-fluid"
+              src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cropped-rolso-logo_light.png"
+              alt=""
+            />
+            <h1>Rolso</h1>
+          </article>
+          <p>
+            Nam laoreet est et dui scelerisque, vel rutrum diam fringilla. In
+            nec convallis nisi. Duis vitae ornare massa, vitae iaculis tellus.
+            Sed ultricies tempus metus ut posuere.
+          </p>
+          <article
+            class="
+              social-media-icons
+              py-5 py-lg-0
+              d-flex
+              col-3 col-md-6 col-xl-4
+              justify-content-between
+            "
+          >
+            <div class="tweeter col-3">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="linkedin col-3">
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="youtube col-3">
+              <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+          </article>
+        </section>
+        <section class="footer-quick-menu col-12 col-md-4 col-lg-2">
+          <nav>
+            <ul>
+              <li>Calculator</li>
+              <li>Shipment Tracking</li>
+              <li>Services</li>
+              <li>Prices</li>
+              <li>Trucks</li>
+              <li>Careers</li>
+            </ul>
+          </nav>
+        </section>
+        <section class="subscribe col-12 col-md-6 col-lg-4">
+          <h4>Subscribe</h4>
+          <p>
+            Curabitur quis porttitor augue, et posuere ligula. Nunc sagittis
+            vestibulum
+          </p>
+          <div class="ask">
+            <input type="email" placeholder="Enter Your Email" />
+            <button>
+              <i class="fab fa-telegram-plane"></i>
+            </button>
+          </div>
+        </section>
+      </section>
+      <section
+        class="
+          footer-contacts
+          d-flex
+          justify-contend-center
+          col-8
+          mx-auto
+          flex-wrap
+          mb-5 mb-lg-0
+        "
+      >
+        <article class="phone col-12 col-md-6 col-lg-4 d-flex">
+          <img
+            src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/telephone.png"
+            alt=""
+          />
+          <article class="phone-info">
+            <p>Phone</p>
+            <p>+8 (495) 989 20 11</p>
+          </article>
+        </article>
+        <article class="location col-12 col-md-6 col-lg-4 d-flex">
+          <img
+            src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/placeholder.png"
+            alt=""
+          />
+          <article class="location-info">
+            <p>Location</p>
+            <p>4621 Hill Croft Farm Road</p>
+          </article>
+        </article>
+        <article class="email col-12 col-md-6 col-lg-4 d-flex">
+          <img
+            src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/email.png"
+            alt=""
+          />
+          <article class="email-info">
+            <p>Email</p>
+            <p>rolso.office@gmail.com</p>
+          </article>
+        </article>
+      </section>
+      <div class="copyright text-center py-4 py-lg-0">
+        <p>Merkulove © Rolso Template All rights reserved Copyrights 2021</p>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener( 'DOMContentLoaded', function() {
+      var splide = new Splide( '.splide',{
+        type:"loop",
+        autoplay:true,
+        perPage:3
+      } );
+      splide.mount();
+    } );
+    </script>
+    <script src="home/splide.min.js"></script>
+    <script src="home/index.js"></script>
+  </body>
+</html>

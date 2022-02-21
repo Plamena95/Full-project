@@ -1,0 +1,423 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url(footer.scss);
+* {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+  color: white;
+}
+
+footer .footer-content {
+  padding-top: 3%;
+}
+
+footer .footer-content .subscribe .ask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-content .subscribe .ask input {
+  background: transparent;
+  color: white;
+  border-color: white;
+  padding: 5px 12px;
+}
+
+footer .footer-content .subscribe .ask input::-webkit-input-placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask input:-ms-input-placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask input::-ms-input-placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask input::placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask button {
+  background: #00008e;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+footer .footer-content .subscribe .ask button i {
+  color: white;
+  font-size: 26px;
+}
+
+footer .footer-content .footer-quick-menu nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-content .footer-quick-menu nav ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: bold;
+  padding: 5px;
+}
+
+footer .footer-content .footer-quick-menu nav ul li {
+  cursor: pointer;
+}
+
+footer .footer-contacts {
+  padding-bottom: 3%;
+  margin-top: 5%;
+}
+
+footer .footer-contacts img {
+  padding-right: 10px;
+}
+
+footer .footer-contacts .phone {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-contacts .phone .phone-info p {
+  margin: 0;
+}
+
+footer .footer-contacts .phone .phone-info p:nth-child(2) {
+  font-weight: bold;
+}
+
+footer .footer-contacts .location {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer .footer-contacts .location img {
+  padding-right: 10px;
+}
+
+footer .footer-contacts .location .location-info p {
+  margin: 0;
+}
+
+footer .footer-contacts .location .location-info p:nth-child(2) {
+  font-weight: bold;
+}
+
+footer .footer-contacts .email {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-contacts .email img {
+  padding-right: 10px;
+}
+
+footer .footer-contacts .email .email-info p {
+  margin: 0;
+}
+
+footer .footer-contacts .email .email-info p:nth-child(2) {
+  font-weight: bold;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+
+.social-media-icons div {
+  text-align: center;
+  padding: 5px;
+  border-radius: 100px;
+  background: white;
+}
+
+.social-media-icons div a {
+  color: #00008e;
+}
+
+.social-media-icons div:hover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-box-shadow: 0 0 0 3px rgba(94, 156, 227, 0.16), 0 0 0 7px rgba(4, 38, 76, 0.22);
+          box-shadow: 0 0 0 3px rgba(94, 156, 227, 0.16), 0 0 0 7px rgba(4, 38, 76, 0.22);
+}
+
+* {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  position: relative;
+}
+
+header .company-name {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  padding: 2% 0;
+}
+
+header .company-name .options button:nth-child(1) {
+  background: #0f0fb1;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+}
+
+header .company-name .options button:nth-child(2) {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
+}
+
+header .nav {
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+header .nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .nav ul a:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #ffcc29;
+}
+
+header .nav ul li {
+  padding-bottom: 10px;
+  color: white;
+}
+
+header .nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .nav ul ul {
+  display: none;
+}
+
+header .nav ul ul li {
+  background: white;
+  color: black;
+  border-left: 2px solid #0f0fb1;
+}
+
+header .nav ul ul li a {
+  color: black;
+}
+
+header .nav ul ul li a:hover {
+  border: none;
+}
+
+header .nav ul ul li:hover {
+  background: #0f0fb1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .nav ul ul li:hover a {
+  color: white;
+}
+
+header .nav ul .home:hover ul {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  display: block;
+}
+
+header .nav ul .about:hover ul {
+  display: block;
+}
+
+header .nav ul .about:hover ul .nav {
+  border: none;
+}
+
+header .nav ul .services:hover ul {
+  display: block;
+}
+
+header .nav ul .services:hover ul .nav {
+  border: none;
+}
+
+header .nav article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+header .nav article p {
+  font-size: 13px;
+  margin: 0;
+}
+
+header .nav-bar {
+  color: white;
+  font-size: 35px;
+}
+
+header .header-main {
+  padding: 15% 0;
+  margin: auto;
+  color: white;
+}
+
+header .header-main h1 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 92px;
+}
+
+header .header-main .consultation-buttons button:nth-child(1) {
+  background: #0f0fb1;
+  border: none;
+  padding: 5px 30px;
+  color: white;
+  font-size: 13px;
+}
+
+header .header-main .consultation-buttons button:nth-child(2) {
+  background: #00008e;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+}
+
+header .header-main .consultation-buttons button:nth-child(2) i {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+header .company-name-image img {
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  right: 0;
+}
+
+.contacts-header {
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  bottom: 85px;
+  background: white;
+  padding: 3% 0;
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+}
+
+.contacts-header h1 {
+  color: #19456B;
+  font-size: 78px;
+}
+
+header {
+  padding-bottom: 25%;
+}
+
+main .warehouse-description .warehouse-description-content h1 {
+  color: #19456B;
+  font-size: 48px;
+}
+
+main .warehouse-description .warehouse-description-content .direction::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f277";
+  font-weight: bold;
+  color: #00008E;
+  padding-right: 5px;
+}
+
+main .warehouse-description .warehouse-description-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+main .warehouse-description .warehouse-description-content ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f058";
+  font-weight: bold;
+  color: #00008E;
+  padding-right: 5px;
+}
+
+main .warehouse-description .sidebar-header h6 {
+  color: #19456B;
+  font-weight: 800;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+}
+
+main .warehouse-description .sidebar-header p {
+  background: #00008E;
+  padding: 15px 25px;
+  color: white;
+}
+
+main .warehouse-description .sidebar-content i {
+  color: #017280;
+  font-size: 30px;
+}
+
+main .best-services h1 {
+  color: #19456B;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+main .best-services .best-services-content .image .main-image {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .best-services .best-services-content h6 {
+  color: #19456B;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+main .best-services .best-services-content .icon {
+  background: #0F0FB1;
+  text-align: center;
+}
+/*# sourceMappingURL=warehouse.css.map */

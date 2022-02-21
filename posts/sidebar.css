@@ -1,0 +1,117 @@
+.posts-sidebar .quick-menu-categories .categories-header .header-content {
+  color: #19456b;
+  font-weight: 800;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+}
+
+.posts-sidebar .quick-menu-categories .categories-header .header-image-categories {
+  background: #00008e;
+  padding: 15px 25px;
+  color: white;
+}
+
+.posts-sidebar .quick-menu-categories .categories-content div p:nth-child(2) {
+  color: #a3a3a3;
+}
+
+.posts-sidebar .quick-menu-posts .posts-header .posts-content {
+  color: #19456b;
+  font-weight: 800;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+}
+
+.posts-sidebar .quick-menu-posts .posts-header .header-image-description {
+  background: #017280;
+  padding: 15px 25px;
+  color: white;
+}
+
+.posts-sidebar .quick-menu-posts .posts-content div .posts-picture img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 80%;
+}
+
+.posts-sidebar .quick-menu-posts .posts-content div .posts-content-description p:nth-child(1) {
+  color: #19456b;
+  font-weight: 600;
+  margin: 0;
+}
+
+.posts-sidebar .quick-menu-posts .posts-content div .posts-content-description p:nth-child(2)::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f133";
+  font-weight: 400;
+  color: #00008e;
+  padding-right: 5px;
+}
+
+.posts-sidebar .quick-menu-arhives .arhives-header .header-content {
+  color: #19456b;
+  font-weight: 800;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+}
+
+.posts-sidebar .quick-menu-arhives .arhives-header .header-image-description {
+  background: #00008e;
+  padding: 15px 25px;
+  color: white;
+}
+
+.posts-sidebar .quick-menu-arhives .arhives-content nav ul {
+  list-style: none;
+}
+
+.posts-sidebar .quick-menu-arhives .arhives-content nav ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: bold;
+  color: #00008e;
+  padding-right: 5px;
+}
+
+.posts-sidebar .quick-menu-arhives .arhives-content nav ul li {
+  color: #19456b;
+  font-weight: 800;
+}
+
+.posts-sidebar .quick-menu-comments .comments-header .header-content {
+  color: #19456b;
+  font-weight: 800;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+}
+
+.posts-sidebar .quick-menu-comments .comments-header .header-image-description {
+  background: #017280;
+  padding: 15px 25px;
+  color: white;
+}
+
+.posts-sidebar .quick-menu-comments .arhives-content nav ul {
+  list-style: none;
+}
+
+.posts-sidebar .quick-menu-comments .arhives-content nav ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f27a";
+  font-weight: 400;
+  color: #00008e;
+  padding-right: 5px;
+}
+
+.posts-sidebar .quick-menu-comments .arhives-content nav ul li {
+  color: #19456b;
+}
+
+.posts-sidebar .quick-menu-comments .arhives-content nav ul li span {
+  font-weight: 600;
+}
+/*# sourceMappingURL=sidebar.css.map */

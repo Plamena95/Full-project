@@ -1,0 +1,85 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+body .error-main {
+  position: relative;
+}
+
+body .error-main h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 300px;
+  line-height: 300px;
+  text-align: center;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+}
+
+body .error-main h2 {
+  font-size: 50px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 92px / 2 - 159.5px);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  bottom: 0;
+  top: 60%;
+}
+
+body .search input {
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+}
+
+body section {
+  color: white;
+  text-align: center;
+}
+
+body .search button,
+body .buttons button:nth-child(2) {
+  background: #00008e;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+body .buttons button:nth-child(1) {
+  background: #0f0fb1;
+  color: white;
+  border: none;
+  padding: 5px 40px;
+}
+/*# sourceMappingURL=error.css.map */

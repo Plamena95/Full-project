@@ -1,0 +1,337 @@
+@import "../contacts/contacts.scss";
+@import "../prices/prices-plans.scss";
+@import "../home/small-menu.scss";
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+header {
+  .header-first-nav {
+    background: $secondaryBtn;
+    .connection {
+      align-items: center;
+      padding: 10px 0;
+      .connection-social {
+        nav {
+          text-decoration: none;
+          ul {
+            list-style: none;
+            color: white;
+            margin: 0;
+          }
+        }
+      }
+      p {
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0;
+      }
+    }
+  }
+  .header-nav-second {
+    background: white;
+    border: none;
+    ul {
+      .logo {
+        p {
+          color: #19456b;
+          font-size: 32px;
+          font-weight: 600;
+          margin: 0;
+          padding-left: 5px;
+        }
+      }
+      li {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        color: #382933;
+        a {
+          color: #382933;
+          text-decoration: none;
+        }
+      }
+      .header-phone {
+        background: #017280;
+      }
+    }
+  }
+}
+main {
+  .description {
+    padding: 5% 0;
+    h1 {
+      color: #19456b;
+      font-weight: 800;
+      font-size: 56px;
+      strong {
+        color: #0f0fb1;
+      }
+    }
+    .consultation-buttons {
+      padding-bottom: 10%;
+      button:nth-child(1) {
+        background: $primaryBtn;
+        border: none;
+        color: white;
+        padding: 10px 40px;
+      }
+      button:nth-child(2) {
+        background: $secondaryBtn;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+      }
+    }
+    .description-options {
+      .cargo,
+      .tracking {
+        .content {
+          padding: 20px 40px;
+          box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+        }
+        h4 {
+          color: #19456b;
+          font-weight: 800;
+          font-size: 22px;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+  .quality {
+    .quality-description {
+      .quality-description-first {
+        h1 {
+          color: #19456b;
+          font-weight: 800;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          li::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f00c";
+            color: #00008e;
+            font-size: 17px;
+            margin-right: 5px;
+            font-weight: bold;
+          }
+          li:nth-child(2) {
+            font-weight: bold;
+          }
+        }
+        .quality-buttons {
+          button:nth-child(1) {
+            background: $primaryBtn;
+            border: none;
+            color: white;
+            padding: 5px 30px;
+          }
+          button:nth-child(2) {
+            background: $secondaryBtn;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+          }
+        }
+      }
+      .quality-description-second {
+        .first,
+        .third {
+          h1 {
+            color: #00008e;
+            font-weight: 800;
+            font-size: 48px;
+          }
+        }
+        .second {
+          h1 {
+            color: #017280;
+            font-size: 48;
+            font-weight: 800;
+            strong {
+              font-weight: 400;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .shipping-options {
+    box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+    .first,
+    .third {
+      div {
+        color: #00008e;
+        font-size: 60px;
+      }
+      .shipping-options-contain {
+        padding: 40px 30px;
+        height: 350px;
+        h6 {
+          color: #19456b;
+          font-size: 22px;
+          font-weight: 800;
+        }
+      }
+    }
+    .second,
+    .fourth {
+      div {
+        color: #017280;
+        font-size: 60px;
+      }
+      .shipping-options-contain {
+         height: 350px;
+        padding: 40px 30px;
+        h6 {
+          color: #19456b;
+          font-size: 22px;
+          font-weight: 800;
+        }
+      }
+    }
+    img {
+      object-fit: cover;
+      height: 350px;
+      width: 100%;
+    }
+  }
+  .prices-plans {
+    .header {
+      h1 {
+        color: #19456b;
+        font-weight: 800;
+        font-size: 56px;
+      }
+    }
+    .prices-plans-description {
+      .full-pack {
+        .header {
+          p:nth-child(2) {
+            color: #0f0fb1;
+          }
+        }
+        .monthly-price {
+          p:nth-child(1) {
+            color: #0f0fb1;
+          }
+        }
+        .description {
+          li:nth-child(2) {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .home-two-slider {
+    div{
+      img {
+        border: 1px solid lightgray;
+       }
+    }
+    
+  }
+  .feedback {
+    h1 {
+      color: #19456b;
+      font-size: 56px;
+      font-weight: 800;
+    }
+    .customer-service {
+      .customer-services-first-container {
+        button {
+          background-color: $primaryBtn;
+          border: 0;
+          color: white;
+          padding: 5px 30px;
+          display: flex;
+          position: relative;
+          right: 0;
+        }
+      }
+      .contacts-info {
+        margin: 0;
+        position: inherit;
+        bottom: 0;
+        article {
+          div:nth-child(2) {
+            padding: 30px;
+            p {
+              font-weight: 800;
+              font-size: 18px;
+              color: #19456b;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  background: white;
+  color: black;
+  .footer-content {
+    .social-media {
+      .footer-logo {
+        p {
+          color: #19456b;
+          padding-right: 5px;
+          font-weight: 600;
+          font-size: 32px;
+          margin: 0;
+        }
+      }
+      .social-media-icons {
+        .tweeter,
+        .youtube {
+          background: #00008e;
+          border-radius: 100px;
+          color: white;
+          font-size: 28px;
+          a {
+            color: white;
+          }
+        }
+        .linkedin {
+          background: #017280;
+          border-radius: 100px;
+          color: white;
+          font-size: 28px;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+    .footer-quick-menu {
+      nav {
+        ul {
+          list-style: none;
+          li::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f0da";
+            color: #00008e;
+            font-size: 18px;
+            padding-right: 5px;
+            font-weight: bold;
+          }
+          li {
+            color: #19456b;
+            font-size: 18px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .footer-images {
+      section {
+        margin-bottom: 10px;
+        img {
+          height: 100%;
+        }
+      }
+    }
+  }
+}

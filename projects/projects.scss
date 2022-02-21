@@ -1,0 +1,81 @@
+@import "../home/header.scss";
+@import "../home/footer.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+    display: none;
+  }
+  #nav-click:hover{
+    .main-hidden{
+      display: block;
+    }
+  }
+.contacts-header {
+  @include header();
+}
+header {
+  padding-bottom: 15%;
+}
+main {
+    nav{
+        ul{
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                    color: #19456B;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .nav-images{
+        section{
+            cursor: pointer;
+            position: relative;
+            max-height: 520px;
+            img{
+                height: 100%;
+            }
+            div{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+    display: none;
+                background: #00008E;
+                padding: 20px;
+                h5{
+                    color: white;
+                    font-weight: 800;
+                }
+                p{
+                    color: white;
+                }
+            }
+        }
+        section:hover{
+            background: #00008E;
+            transition: 0.5s;
+            img{
+                opacity: 0.5;   
+            }
+            div{
+            display: block;
+            }
+        }
+    }
+    .projects-button{
+        button:nth-child(1){
+            color: white;
+            background: #0F0FB1;
+            padding:10px 30px;
+            border: none;
+        }
+        button:nth-child(2){
+            color: white;
+            background: #00008E;
+            padding:10px 20px;
+            border: none;
+        }
+    }
+}

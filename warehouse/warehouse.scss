@@ -1,0 +1,59 @@
+@import "../home/footer.scss";
+@import "/bestServices.scss";
+@import "../home/small-menu.scss";
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+
+@import"../home/header.scss";
+.contacts-header{
+   @include header();
+}
+header{
+    padding-bottom: 25%;
+}
+main{
+   .warehouse-description{
+       .warehouse-description-content{
+           h1{
+               color: #19456B;
+               font-size: 48px;
+           }
+           .direction::before{
+               font-family: "Font Awesome 5 Free";
+               content: "\f277";
+               font-weight: bold;
+               color: #00008E;
+               padding-right: 5px;
+           }
+           ul{
+               list-style: none;
+               padding: 0;
+               li::before{
+                   font-family: "Font Awesome 5 Free";
+                   content: "\f058";
+                   font-weight: bold;
+               color: #00008E;
+               padding-right: 5px;
+               }
+           }
+       }
+       .sidebar-header{
+        h6{
+          color: #19456B;
+          font-weight: 800;
+          padding: 10px 30px;
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262) ;  
+        }
+        p{
+            background:#00008E;
+            padding: 15px 25px;
+            color: white;
+        }
+    }
+    .sidebar-content{
+        i{
+            color: #017280;
+            font-size: 30px;
+        }
+    }
+   } 
+}

@@ -1,0 +1,87 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import "../home/small-menu.scss";
+@import "../home/header.scss";
+@import "../home/footer.scss";
+@import"../posts/sidebar.scss";
+.blog-header{
+  @include header();
+}
+header {
+    padding-bottom: 20%;
+  }
+body {
+    .calculator-header {
+      @include header();
+    }
+    main{
+      .blogs{
+        article{
+          .blog-container{
+            h1{
+              color: #19456B;
+              font-weight: 800;
+            }
+            .date::before{
+              font-family: "Font Awesome 5 Free";
+              content: "\f133";
+              font-weight: 400;
+              color:#00008E ;
+              padding-right: 5px;
+            }
+              .blogger::before{
+                font-family: "Font Awesome 5 Free";
+                content: "\f2bd";
+                font-weight: 400;
+                color:#00008E ;
+                padding-right: 5px;
+              }
+              .theme::before{
+                font-family: "Font Awesome 5 Free";
+                content: "\f07b";
+                font-weight: 400;
+                color:#00008E ;
+                padding-right: 5px;
+              }
+            }
+          }
+        }
+      }
+      .pages-navigation{
+        nav{
+          ul{
+            list-style: none;
+            padding: 0;
+            li{
+              margin: 0 5px;
+              a{
+                text-decoration: none;
+                color: black;
+                padding: 5px 10px;
+              }
+            }
+          }
+          .focused{
+            border-radius: 200px;
+            background-color: #00008E;
+            color: white;
+          }
+          ul::before{
+            font-family: "Font Awesome 5 Free";
+            content: "\f100";
+            color: #00008E;
+            font-size:17px ;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          ul::after{
+            font-family: "Font Awesome 5 Free";
+            content: "\f101";
+            color: #00008E;
+            font-size:17px ;
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+      }
+     
+    }

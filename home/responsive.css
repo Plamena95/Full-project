@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+  .main-images div:nth-child(1) {
+    right: 0 !important;
+  }
+  .main-images .image-description {
+    right: 0 !important;
+  }
+  .main-images div:nth-child(3) {
+    left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .numberic {
+    left: 0 !important;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .service-main-second {
+    position: relative !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

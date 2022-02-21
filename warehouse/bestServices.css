@@ -1,0 +1,31 @@
+.main-hidden {
+  display: none;
+}
+
+#nav-click:hover .main-hidden {
+  display: block;
+}
+
+.best-services h1 {
+  color: #19456B;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.best-services .best-services-content .image .main-image {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.best-services .best-services-content h6 {
+  color: #19456B;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.best-services .best-services-content .icon {
+  background: #0F0FB1;
+  text-align: center;
+}
+/*# sourceMappingURL=bestServices.css.map */

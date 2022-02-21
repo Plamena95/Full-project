@@ -1,0 +1,122 @@
+@import "../home/header.scss";
+@import "../home/footer.scss";
+@import "prices-plans.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+  display: none;
+}
+#nav-click:hover{
+  .main-hidden{
+    display: block;
+  }
+}
+header {
+  padding-bottom: 15%;
+}
+.prices-header {
+  @include header();
+}
+main {
+  .prices-pack {
+    .prices-pack-header {
+      p {
+        background: #017280;
+        color: white;
+        margin: 0 auto;
+        padding: 5px 10px;
+      }
+    }
+    .prices-plans {
+      article {
+        box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+        padding: 30px 20px;
+        .header p:nth-child(1) {
+          color: #19456b;
+          font-size: 22px;
+          font-weight: 800;
+        }
+        .header p:nth-child(2) {
+          color: #017280;
+          font-weight: 700;
+        }
+        .monthly-price {
+          border-top: 1px solid #e1e1e1;
+          border-bottom: 1px solid #e1e1e1;
+          padding-bottom: 20px;
+        }
+        .monthly-price p:nth-child(1) {
+          color: #2e8995;
+          font-size: 18px;
+          margin: 0;
+          strong {
+            font-weight: 800;
+            font-size: 48px;
+          }
+        }
+        .monthly-price p:nth-child(2) {
+          color: #6d6d6d;
+          margin: 0;
+        }
+        .description {
+          ul {
+            list-style: none;
+            li::before {
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              content: "\f00c";
+              padding-right: 5px;
+            }
+          }
+        }
+        .buy-button {
+          button {
+            background: $primaryBtn;
+            color: white;
+            padding: 5px 40px;
+            border: none;
+          }
+        }
+      }
+      .full-pack {
+        .header p:nth-child(2) {
+          color: $primaryBtn;
+        }
+        .monthly-price p:nth-child(1) {
+          color: $primaryBtn;
+        }
+        .description {
+          ul li:nth-child(2) {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .consultation {
+    margin-top: 10%;
+
+    h1 {
+      color: #19456b;
+      font-weight: 800;
+      font-size: 56px;
+    }
+    p {
+      font-size: 17px;
+    }
+    .buttons button:nth-child(1) {
+      background: $primaryBtn;
+      color: white;
+      border: none;
+      padding: 5px 30px;
+    }
+    .buttons button:nth-child(2) {
+      background: $secondaryBtn;
+      color: white;
+      border: none;
+      padding: 5px;
+    }
+  }
+}
+footer{
+    margin-top: 10%;
+}

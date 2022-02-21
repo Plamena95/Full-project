@@ -1,0 +1,161 @@
+@import "../home/header.scss";
+@import "../home/footer.scss";
+@import"sidebar.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+  display: none;
+}
+#nav-click:hover{
+  .main-hidden{
+    display: block;
+  }
+}
+.header-image {
+  position: relative;
+  bottom: 60px;
+}
+header {
+  padding-bottom: 15%;
+}
+main {
+  .posts-description {
+    h1:nth-child(2) {
+      color: #19456b;
+      font-weight: 700;
+      font-size: 78px;
+    }
+    .posts-details {
+      .date p::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f073";
+        color: #00008e;
+        padding-right: 5px;
+        font-weight: 400;
+      }
+      .person p::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f007";
+        color: #00008e;
+        padding-right: 5px;
+        font-weight: 400;
+      }
+      .theme p::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f07b";
+        color: #00008e;
+        padding-right: 5px;
+        font-weight: 400;
+      }
+    }
+    .posts-description-lists {
+      ul {
+        list-style: none;
+        padding: 0;
+        li::before {
+          font-family: "Font Awesome 5 Free";
+          content: "\f058";
+          font-weight: 400;
+          color: #00008e;
+          padding-right: 5px;
+        }
+      }
+    }
+    .comment {
+      border-left: 10px solid #00008e;
+      padding: 30px 20px;
+      p:nth-child(1) {
+        font-weight: 500;
+      }
+      .blogger {
+        font-style: italic;
+        color: #19456b;
+        font-size: 18px;
+      }
+      .type {
+        font-weight: 500;
+        color: #0f0fb1;
+        font-size: 17px;
+      }
+    }
+    .type-of-blog {
+      p {
+        color: #6d6d6d;
+      }
+      p::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f02c";
+        color: #00008e;
+        font-weight: bold;
+        padding-right: 5px;
+      }
+    }
+    .your-comment {
+      box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+      padding: 30px 40px;
+      h1 {
+        color: #19456b;
+        font-weight: 800;
+      }
+      .example {
+        .example-image {
+          img {
+            height: 70%;
+            object-fit: cover;
+          }
+        }
+        .example-contain {
+          padding-left: 10px;
+          .example-contain-header {
+            p:nth-child(1) {
+              color: #19456b;
+              font-weight: 600;
+              margin: 0;
+            }
+            p:nth-child(2) {
+              margin: 0;
+              color: #6d6d6d;
+            }
+            p:nth-child(2)::before {
+              font-family: "Font Awesome 5 Free";
+              content: "\f133";
+              font-weight: 400;
+              color: #00008e;
+              padding-right: 5px;
+            }
+          }
+        }
+        .icon {
+          right: 0;
+          color: #017280;
+        }
+      }
+      .customer-info {
+        p {
+          color: #6d6d6d;
+          margin: 0;
+        }
+        input,
+        textarea {
+          border: 1px solid #e1e1e1;
+          padding: 5px 10px;
+        }
+        input:focus,
+        textarea:focus{
+          outline: none;
+        }
+        input::placeholder,
+        textarea::placeholder {
+          color: black;
+        }
+      }
+      .button {
+        button {
+          background: $primaryBtn;
+          padding: 5px 20px;
+          border: none;
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,201 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url(footer.scss);
+* {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  position: relative;
+}
+
+header .company-name {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  padding: 2% 0;
+}
+
+header .company-name .options button:nth-child(1) {
+  background: #0f0fb1;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+}
+
+header .company-name .options button:nth-child(1):hover {
+  background: #00008E;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+}
+
+header .company-name .options button:nth-child(2):hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+}
+
+header .company-name .options button:nth-child(2) {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
+}
+
+header .nav {
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+header .nav nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .nav nav ul li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #ffcc29;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .nav nav ul li {
+  color: white;
+}
+
+header .nav nav ul li a {
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+header .nav nav ul ul li {
+  background: white;
+  color: black;
+  border-left: 2px solid #0f0fb1;
+}
+
+header .nav nav ul ul li a {
+  color: black;
+}
+
+header .nav nav ul ul li a:hover {
+  border: none;
+}
+
+header .nav nav ul ul li:hover {
+  background: #0f0fb1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .nav nav ul ul li:hover a {
+  color: white;
+}
+
+header .nav nav ul .home:hover ul {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  display: block;
+}
+
+header .nav nav ul .about:hover ul {
+  display: block;
+}
+
+header .nav nav ul .about:hover ul .nav {
+  border: none;
+}
+
+header .nav nav ul .services:hover ul {
+  display: block;
+}
+
+header .nav nav ul .services:hover ul .nav {
+  border: none;
+}
+
+header .nav article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+header .nav article p {
+  font-size: 13px;
+  margin: 0;
+}
+
+header .nav-bar {
+  color: white;
+  font-size: 35px;
+}
+
+header .header-main {
+  padding: 15% 0;
+  margin: auto;
+  color: white;
+}
+
+header .header-main h1 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 92px;
+}
+
+header .header-main .consultation-buttons button:nth-child(1) {
+  background: #0f0fb1;
+  border: none;
+  padding: 5px 30px;
+  color: white;
+  font-size: 13px;
+}
+
+header .header-main .consultation-buttons button:nth-child(2) {
+  background: #00008e;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+}
+
+header .header-main .consultation-buttons button:nth-child(2) i {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+header .header-main .consultation-buttons:hover button {
+  background: #00008e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+}
+
+header .company-name-image img {
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  right: 0;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,343 @@
+@import "header.scss";
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import "../prices/prices-plans.scss";
+@mixin buttonFirst() {
+  background: $primaryBtn;
+  padding: 5px 40px;
+  color: white;
+  border: none;
+}
+.main-hidden{
+  display: none;
+}
+#nav-click:hover{
+  .main-hidden{
+    display: block;
+  }
+}
+main {
+  .scroll-down,
+  .scroll-up
+  
+  {
+    opacity: 0;
+  }
+  .service-main {
+    display: flex;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.63);
+    .service-main-first {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .service-main-second {
+      background: linear-gradient(
+        135deg,
+        rgba(0, 0, 142, 0.85) 0%,
+        rgba(1, 114, 128, 0.85) 100%
+      );
+      background-repeat: no-repeat;
+      color: white;
+      position: absolute;
+      opacity: 1;
+      top: -100px;
+      right: 5%;
+      z-index: 1;
+      padding: 5%;
+
+      ul {
+        list-style: none;
+
+        padding: 0;
+      }
+      nav p:nth-child(2) {
+        color: white;
+        i {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+  .logistic-services {
+    .logistic-services-images{
+      div{
+        position: relative;
+        img{
+          height: 100%;
+        }
+        div{
+          position: absolute;
+    bottom: 0;
+    left: 5%;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+        }
+    }
+    .logistic-img-section:hover{
+      transform: scale(1.30, 1.20);
+z-index: 1;
+transition: 0.5s;
+    }
+  }
+    margin: 5% auto;
+    h1 {
+      text-align: center;
+      margin: auto;
+      font-size: 56px;
+      font-weight: 800;
+      color: #19456b;
+    }
+  }
+  .company-description {
+    img {
+      height: 55%;
+      width: 100%;
+    }
+    display: flex;
+    .company-description-first-container {
+      h1 {
+        color: #19456b;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 52px;
+        strong {
+          color: #0f0fb1;
+        }
+      }
+
+      .first-container-description-content {
+        .second-container-button button:nth-child(1) {
+          @include buttonFirst();
+        }
+        .second-container-button button:nth-child(2) {
+          background: $secondaryBtn;
+        }
+      }
+    }
+    .company-description-first-container {
+      .first-container-description {
+        .numberic {
+          .packages {
+            .packages-description {
+              .packages-description-contain {
+                justify-content: center;
+              }
+            }
+          }
+          .history {
+            .history-description {
+              .history-description-contain {
+                justify-content: center;
+              }
+              .history-description-contain p:nth-child(1) {
+                color: #017280;
+                margin: 0;
+                strong {
+                  font-weight: 800;
+                  font-size: 48px;
+                }
+              }
+            }
+          }
+          position: relative;
+          left: 20%;
+          z-index: 1;
+          background: white;
+          .phone {
+            box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+            .phone-description {
+              p {
+                color: #19456b;
+                font-weight: 800;
+                font-size: 18px;
+              }
+            }
+          }
+          .address {
+            box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+            .address-description {
+              p {
+                color: #19456b;
+                font-weight: 800;
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .company-description-second-container {
+      .first-container-description {
+        position: relative;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        h1 {
+          strong {
+            color: #0f0fb1;
+          }
+          color: #19456b;
+          font-weight: 800;
+          font-size: 48px;
+          line-height: 52px;
+        }
+        .second-container-button button:nth-child(1) {
+          background: $primaryBtn;
+          padding: 5px 40px;
+          color: white;
+          border: none;
+        }
+
+        .second-container-button button:nth-child(2) {
+          background: $secondaryBtn;
+          color: white;
+          padding: 5px 10px;
+          border: none;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .your-info {
+    margin-bottom: 5%;
+    .consultation-info {
+      h1 {
+        color: #19456b;
+        font-weight: 800;
+        font-size: 56px;
+      }
+      p {
+        font-size: 17px;
+      }
+      .our-number {
+        p {
+          color: #19456b;
+          font-weight: 600;
+          font-size: 20px;
+          margin: 5px 0;
+        }
+        h1 {
+          color: #00008e;
+          font-size: 48px;
+          font-weight: 800;
+        }
+      }
+    }
+    .customer-info-section {
+      box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.63);
+      padding: 5%;
+      input,
+      textarea {
+        border: 1px solid #e1e1e1;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+      }
+      .customer-info-container {
+        flex-wrap: wrap;
+      }
+      .appoitment {
+        text-align: right;
+        button {
+          background: $primaryBtn;
+          border: none;
+          color: white;
+          padding: 5px 20px;
+        }
+      }
+    }
+  }
+ 
+  .main-images {
+      overflow: hidden;
+    .image-description {
+      padding: 30px;
+      background: #00008e;
+      color: white;
+      position: relative;
+      width: 60%;
+      bottom: 20%;
+      right: 30%;
+      h3 {
+        font-weight: 800;
+      }
+      p:nth-child(1) {
+        padding: 0 10px;
+      }
+      .services {
+        cursor: pointer;
+      }
+      .services::after {
+        font-family: "Font Awesome\ 5 Free";
+        content: "\f30b";
+        font-weight: bold;
+        padding-left: 5px;
+      }
+    }
+  }
+  .prices {
+    h1 {
+      color: #19456b;
+      font-weight: 800;
+      font-size: 56px;
+    }
+    .prices-button button:nth-child(1) {
+      @include buttonFirst();
+    }
+    .prices-button button:nth-child(2) {
+      background: $secondaryBtn;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      font-weight: bold;
+    }
+    .prices-pack {
+        margin-top: 5%;
+      .prices-pack-header {
+        p {
+          background: #ffcc29;
+          color: #19456b;
+          font-weight: 600;
+          padding: 5px 20px;
+          margin: 0;
+        }
+      }
+      .prices-plans{
+          article{
+              margin: 0;
+
+          }
+      }
+    }
+  }
+  .map{
+      margin-top:5%;
+      margin-bottom:10%;
+     h1{
+         color:#19456B;
+         font-size: 56px;
+         font-weight: 800;
+     } 
+
+  }
+}
+.service-main-first {
+  div {
+    div {
+      h6 {
+        color: #19456b;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+.image-description{
+  left: 30%;
+    bottom: 100px;
+    z-index: 1;
+    background-color: #00008E;
+    color: white;
+    padding: 20px;
+}

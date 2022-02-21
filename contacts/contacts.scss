@@ -1,0 +1,115 @@
+@import "../home/header.scss";
+@import "../home/footer.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+    display: none;
+  }
+  #nav-click:hover{
+    .main-hidden{
+      display: block;
+    }
+  }
+@mixin header(){
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    bottom: 85px;
+    background: white;
+    padding: 3% 0;
+    box-shadow:0px 0px 12px 0px rgba(0,0,0,0.5);
+    h1{
+        color: #19456B;
+        font-size: 78px;
+    }
+}
+    .contacts-header{
+@include header();
+top: 0;
+right: 30%;
+height: 200px;
+    }
+    header{
+        padding-bottom: 15%;
+    }
+main{
+
+    .customer-services-first-container{
+        box-shadow: 0px 2px 25px 0px rgba(0,0,0,0.15);
+        padding: 70px 50px 70px 50px;
+        div{
+            margin-bottom: 20px;
+            p{
+                margin: 0;
+                font-weight: bold;
+            }
+            input,
+            textarea{
+                border: 1px solid #E1E1E1;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+            }
+        }
+    }
+    .customer-services-second-container{
+        position: relative;
+        background: #0F0FB1;
+        .customer-services-second-container-image{
+            opacity: 0.5;
+            height: 100%;
+            cursor: pointer;
+            img{
+                height: 100%
+            }
+        }
+        .customer-services-second-container-content{
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            color: white;
+        }
+    }
+    .contacts-info{
+        margin-bottom: 10%;
+        z-index: 1;
+        position: relative;
+        bottom: 55px;
+        .phone,
+        .address,
+        .e-mail{
+            box-shadow:0px 0px 12px 0px rgba(0,0,0,0.5);
+            background: white;
+            p{
+               color: #19456B;
+               font-weight: 800; 
+            }
+        }
+    }
+    .customer-services{
+
+        button{
+            background-color: $primaryBtn;
+            border: none;
+            color: white;
+            padding: 10px 30px;
+        }
+        .customer-services-second-container{
+            .submit{
+               button:nth-child(1){
+                   background-color: $primaryBtn;
+                   border: none;
+                   color: white;
+                   padding: 10px 30px;
+                               } 
+               button:nth-child(2){
+                   background: #00008E;
+                   padding: 10px 20px;
+                   border: none;
+                   color: white;
+                   padding: 10px 20px;
+               }
+            }
+        }
+    }
+}
+

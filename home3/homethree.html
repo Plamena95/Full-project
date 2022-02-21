@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="splide.js"></script>
+    <link rel="stylesheet" href="splide.min.css">
+    <link rel="stylesheet" href="homethree.css" />
+  </head>
+  <body>
+    <header>
+      <section class="company-name col-10 d-flex justify-contend-around">
+        <article class="logo col-1 position-relative">
+          <img src="../img/Logo.png" alt="" />
+        </article>
+        <article class="options col-5 d-none d-md-flex justify-content-around">
+          <button>Calculator</button>
+          <button>Tracking</button>
+        </article>
+      </section>
+      <section class="nav d-none d-md-flex col-10">
+        <nav class="col-9">
+          <ul id="header-nav" class="col-11 d-flex list-none justify-content-around">
+            <li id="nav-click" class="home py-0">
+              <a href="../home/index.html">Home</a>
+              <ul class="main-hidden">
+                <li><a href="../home3/homethree.html">Home 2</a></li>
+                <li><a href="../home2/hometwo.html">Home 3</a></li>
+              </ul>
+            </li>
+            <li id="nav-click" class="about py-0">
+              <a href="../about/about.html">About</a>
+              <ul class="main-hidden">
+                <li><a href="../quote/quote.html">Quote</a></li>
+                <li><a href="../warehouse/warehouse.html">Warehouse</a></li>
+                <li><a href="../frqs/frqs.html">FAQs</a></li>
+                <li><a href="../prices/prices.html">Prices</a></li>
+                <li><a href="../error/error.html">404</a></li>
+                <li><a href="../blog/blog.html">Blog</a></li>
+              </ul>
+            </li>
+            <li id="nav-click" class="services">
+              <a href="../services/services.html">Services</a>
+              <ul class="main-hidden">
+                <li>
+                  <a href="../serviceDetails/serviceDetails.html"
+                    >Service Freight</a
+                  >
+                </li>
+                <li><a href="../projects/projects.html">Projects</a></li>
+                <li><a href="../calculator/calculator.html">Calculator</a></li>
+              </ul>
+            </li>
+            <li class="py-0">
+              <a href="../prices/prices.html">Prices</a>
+            </li>
+            <li class="py-0">
+              <a href="../contacts/contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <article class="tel col-2">
+          <p>+8 (495) 989 20 11</p>
+        </article>
+      </section>
+      <div class="nav-bar d-block d-md-none col-10 mx-auto text-end">
+        <i class="fas fa-bars"></i>
+      </div>
+      <section class="header-main col-10">
+        <div class="consultation">
+          <h1>Transportation services around the World</h1>
+          <p class="col-9">
+            Curabitur congue finibus lorem, at dignissim metus elementum sit
+            amet. Mauris eget dapibus quam. Integer a ante rutrum, semper risus
+            a, blandit elit. Nunc dolor purus, condimentum ut lorem in,
+            tincidunt consequat erat.
+          </p>
+          <div class="consultation-buttons d-flex">
+            <button>Consultation</button>
+            <button><i class="fas fa-caret-right"></i></button>
+          </div>
+        </div>
+      </section>
+      <div class="company-name-image">
+        <img src="../img/Rolso2.png" alt="" />
+      </div>
+    </header>
+    <section class="small-menu" id="show">
+      <div class="close-button col-10 mx-auto">
+        <div class="close-button-section">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+      <div class="small-menu-content d-flex">
+        <ul id="showContent" class="col-3">
+          <div id="smallMenuContent" class="d-flex justify-content-between">
+            <li>
+              <a href="#">HOME</a>
+              <ul class="small-hidden">
+                <li><a href="../home3/homethree.html">HOME 2</a></li>
+                <li><a href="../home2/hometwo.html">HOME 3</a></li>
+              </ul>
+            </li>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div id="smallMenuContent" class="d-flex justify-content-between">
+            <li>
+              <a href="../about/about.html">ABOUT</a>
+              <ul class="small-hidden">
+                <li><a href="../quote/quote.html">QUOTE</a></li>
+                <li><a href="../warehouse/warehouse.html">WAREHOUSE</a></li>
+                <li><a href="../frqs/frqs.html">FAQS</a></li>
+                <li><a href="../error/error.html">404</a></li>
+                <li>
+                  <a href="../blog/blog.html">BLOG</a>
+                  <ul>
+                    <li><a href="../posts/posts.html">POSTS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li class="small-hidden">
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div id="smallMenuContent" class="d-flex justify-content-between">
+            <li>
+              <a href="../services/services.html">SERVICES</a>
+              <ul class="small-hidden">
+                <li><a href="../projects/projects.html">PROJECTS</a></li>
+                <li><a href="../calculator/calculator.html">CALCULATOR</a></li>
+                <li>
+                  <a href="../serviceDetails/serviceDetails.html"
+                    >SERVICE DETAILS</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <i class="fas fa-caret-down"></i>
+          </div>
+            <li><a href="../prices/prices.html">PRICES</a></li>
+          <li><a href="../contacts/contacts.html">CONTACTS</a></li>
+        </ul>
+      </div>
+      <div class="flying-objects">
+        <img
+          class="flying-object-dots"
+          src="https://ideogen.unbelievable.digital/assets/images/dots-header.svg"
+          alt=""
+        />
+        <img
+          class="flying-object-oval"
+          src="https://ideogen.unbelievable.digital/assets/images/mobile-oval.svg"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="home-header position-relative col-12 col-lg-9 d-flex flex-column flex-md-row mx-auto">
+       <section class="freight col-12 col-md-4 d-flex align-items-center">
+        <div class="image col-3">
+            <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/truck.png" alt="">
+        </div>
+        <div class="contain col-9 ps-4">
+            <h6>Road Freight</h6>
+            <p>Ut consequat rhoncus nisi vel mollis. Lorem ips</p>
+        </div>
+       </section>
+       <section class="col-12 col-md-4 d-flex align-items-center">
+        <div class="image col-3">
+            <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-ship.png" alt="">
+        </div>
+        <div class="contain ">
+            <h6>Shipping Freight</h6>
+            <p>Quisque cidunt malesuada tincidunt. In mattis rut</p>
+        </div>
+       </section>
+       <section class="col-12 col-md-4 d-flex align-items-center">
+        <div class="image col-3">
+            <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/fast-delivery.png" alt="">
+        </div>
+        <div class="contain">
+            <h6>Air Freight</h6>
+            <p>Duis tempor risus vel sollicitudin euism</p>
+        </div>
+       </section>
+      </section>
+      <main>
+          <section class="transporterium d-flex flex-column flex-lg-row col-9 justify-content-between mx-auto align-items-center">
+              <article class="transporterium-image col-12 mx-auto col-lg-4 mb-5 mb-lg-0">
+                <img class="col-11" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/aerial-view-of-an-oil-tanker-ship-768x1024.jpg" alt="">
+              </article>
+              <article class="transporterium-contain col-12 col-lg-8">
+                <h1>Powerfull Features
+                    of Transporterium</h1>
+                <p>Nam fringilla commodo lobortis. Quisque aliquet commodo orci. Pellentesque dignissim tempor erat dapibus hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridic</p>
+                <div class="numberic scroll-down mx-auto d-flex flex-column flex-md-row justify-content-between col-12 col-lg-11 animate__animated">
+                    <div class="packages col-12 col-md-5 mb-5 mb-md-0 col-lg-6 d-flex flex-column justify-contend-center flex-md-row align-items-center align-items-md-start text-center text-md-start">
+                      <div class="packages-img py-3 py-md-0 col-5 h-100">
+                          <img class="img-fluid h-100" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/Delivered-packeges.png" alt="">
+                     
+                      </div>
+                      <div class="packages-description col-6 ps-3 h-100">
+                        <div class="packages-description-contain  d-flex flex-column justify-contend-center h-100">  <p>Address</p>
+                          <p>4621 Hill Croft Farm
+                            Road</p></div>
+                      </div>
+                    </div>
+                    <div class="history col-12 col-md-5 col-lg-6 d-flex flex-column flex-md-row justify-contend-center align-items-center align-items-md-start text-center text-md-start">
+                      <div class="history-img py-3 py-md-0 col-5 h-100">
+                     
+                          <img class="img-fluid h-100" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/Total-warehouse-area.png" alt="">
+                        
+                      </div>
+                      <div class="history-description col-6  ps-3 h-100">
+                       
+                        <div class="history-description-contain  d-flex flex-column justify-contend-center h-100"> 
+                        <p>Phone</p>
+                        <p>+8 (495) 989 20 11
+                            +8 (495) 969 60 12</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </article>
+          </section>
+          <section class="services d-flex flex-column flex-wrap  flex-md-row justify-content-between">
+              <h4 class="col-12 col-lg-5">
+                Transporterium
+                services
+              </h4>
+              <p class="change-number col-12 col-md-6 align-items-center  col-lg-2 d-flex flex-md-column flex-wrap"><strong class="counter">1255</strong> + Delivered packeges</p>
+              <div class="years col-12 col-md-3 col-lg-3 ">
+                  <p class="fs-2"><strong>50</strong> years</p>
+                  <p>Miles driven each of the year</p>
+              </div>
+          </section>
+          <section class="appointment position-initial position-lg-relative col-12 col-lg-9 mx-auto">
+              <div class="appointment-header col-3 text-center">
+               <p>Request a quote</p>
+              </div>
+              <div class="appoitment-contain py-5">
+                <article class="customer-info-container d-flex justify-content-between col-11 col-md-10 mx-auto flex-wrap">
+                    <div class="name col-12 col-md-4 mb-3">
+                      <h6>Full Name</h6>
+                      <input class="col-11 col-md-8" type="text" placeholder="John Doe" />
+                    </div>
+                    <div class="email col-12 col-md-4 mb-3">
+                      <h6>Email</h6>
+                      <input class="col-11 col-md-8" type="email" placeholder="JonhDoe@gmail.com"/>
+                    </div>
+                    <div class="phone col-12 col-md-4 mb-3">
+                      <h6>Phone</h6>
+                      <input class="col-11 col-md-8" type="tel"  placeholder="+1 234 456 7890"/>
+                    </div>
+                    <div class="subject col-12 col-md-4 mb-3">
+                      <h6>Subject</h6>
+                      <input class="col-11 col-md-8" type="text"placeholder="Road Freight" />
+                    </div>
+                    <div class="subject col-12 col-md-4 mb-3">
+                      <h6>Delivery City</h6>
+                      <input class="col-11 col-md-8" type="text"placeholder="New York" />
+                    </div>   
+                     <div class="subject col-12 col-md-4 mb-3">
+                      <h6>City of Departure</h6>
+                      <input class="col-11 col-md-8" type="text"placeholder="Las Vegas" />
+                    </div>
+                    
+                  </article>
+                  <article class="calculator-form-main d-flex flex-wrap col-11 col-md-10 mx-auto">
+                      <div class="truckload col-12 col-md-5">
+                        <p>Freight Type</p>
+                        <select class="col-11 mb-3">
+                          <option value="">Value 1</option>
+                          <option value="">Value 2</option>
+                          <option value="">Value 3</option>
+                          <option value="">Value 4</option>
+                          <option value="">Value 5</option>
+                        </select>
+                      </div>
+                      <div class="service col-12 col-md-5 mb-3">
+                        <p>Incoterms</p>
+                        <select class="col-11">
+                          <option value="">Value 1</option>
+                          <option value="">Value 2</option>
+                          <option value="">Value 3</option>
+                          <option value="">Value 4</option>
+                          <option value="">Value 5</option>
+                        </select>
+                      </div>
+                      <div class="weight col-6 col-md-3 mb-3">
+                        <p>Weight</p>
+                        <input class="col-11" type="" placeholder="1">
+                      </div>
+                      <div class="height col-6 col-md-3 mb-3">
+                        <p>Height</p>
+                        <input class="col-11" type="" placeholder="1">
+                      </div>
+                      <div class="width col-6 col-md-3 mb-3">
+                        <p>Width</p>
+                        <input class="col-11" type="" placeholder="1">
+                      </div>
+                      <div class="lenght col-6 col-md-3">
+                        <p>Lenght</p>
+                        <input class="col-11" type="" placeholder="1">
+                      </div>
+                    </article>
+                    <form class="col-10 d-flex justify-content-between mx-auto py-4">
+                      <div>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1">Fragille</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2">Express delivery</label>
+                      </div>
+                    <div>
+                      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                      <label for="vehicle3">Insurance</label>
+                    </div>
+                      <div>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                      <label for="vehicle1">Packaging</label>
+                      </div>
+                    </form>
+                    <section class="button text-end col-10 mx-auto">
+                      <button>Appointment</button>
+                    </section>
+              </div>
+          </section>
+          <section class="steps">
+              <h1 class="text-center col-8 col-md-6 col-lg-3 mx-auto">Steps of
+                cooperation</h1>
+              <p class="text-center col-10 col-lg-5 mx-auto">Phasellus commodo felis felis, quis blandit metus rutrum sit amet. Pellentesque odio augue, pellentesque sed ligula at, lobortis </p>
+              <article class="steps-contain d-flex flex-column flex-md-row col-11  col-lg-9 mx-auto justify-content-around">
+                <div class="col-11 col-md-3 mx-auto">
+                    <p>01</p>
+                    <h6 >Thinking strategy</h6>
+                    <p >Curabitur porttitor viverra mi, a viverra risus sagittis at. Nulla rhoncus quis velit id varius. Aenean euism</p>
+                </div>
+                <div class="col-11 col-md-3 mx-auto">
+                    <p>02</p>
+                    <h6>Choice of solutions</h6>
+                    <p >Pellentesque id sollicitudin dolor. Suspendisse in porta turpis, nec commodo risus</p>
+                </div>
+                <div class="col-11 col-md-3 mx-auto">
+                    <p>03</p>
+                    <h6 >Route building</h6>
+                    <p>Mauris eu velit ac mauris tincidunt mattis. Etiam cursus vel orci non viverra. Cras mollis posuere laoreet</p>
+                </div>
+              </article>
+          </section>
+          <section class="consultation d-flex flex-column flex-md-row my-5">
+              <div class="consultation-description text-center text-md-start d-flex flex-column justify-content-center justify-content-lg-start col-12 col-md-6 col-lg-4">
+                <h5>Provide quick
+                    tracking your cargo</h5>
+                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra orci malesuada</p>
+                <div class="contact">
+                    <p>Call us for consultation</p>
+                    <h1>+8 (495) 989 20 11</h1>
+                </div>
+              </div>
+              <div class="consultation-images col-12 col-md-6 col-lg-8 d-flex flex-wrap">
+                  <img class="col-6 col-lg-3" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/45624-cranes-at-the-port-of-seattle-768x1152.jpg" alt="">
+                  <img class="col-6 col-lg-3" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/passenger-airplane-is-flying-over-clouds-at-sunset-768x527.jpg" alt="">
+                  <img class="col-6 col-lg-3" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/container-terminal-and-crane-768x1152.jpg" alt="">
+                  <img class="col-6 col-lg-3" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-ship-full-loaded-with-containers-blue-sea-background-768x400.jpg" alt="">
+              </div>
+          </section>
+          <section class="feedback col-9 mx-auto">
+              <h1 class="col-12 col-lg-8 text-center mx-auto">People and companies
+                who <strong>trust us</strong></h1>
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="slider splide__slide"> <p class="col-8 mx-auto">Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit rhoncus. Donec interdum ante a tellus convallis consequat. In facilisis a lorem sit amet venenatis. Integer imperdiet eget massa consectetur feugiat. Pellentesque gravida magna</p>
+                      <div class="person-one d-flex col-4 align-items-center">
+                          <div class="person-image col-6">
+                              <img src="/img/cheerful-middle-aged-woman-with-curly-hair.jpg" alt="">
+                          </div>
+                          <div class="person-description">
+                              <h3>Brady Jones</h3>
+                              <p>CEO, Rondo Company</p>
+                          </div></li>
+                    <li class="slider splide__slide">                      <p class="col-8 mx-auto">Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit rhoncus. Donec interdum ante a tellus convallis consequat. In facilisis a lorem sit amet venenatis. Integer imperdiet eget massa consectetur feugiat. Pellentesque gravida magna</p>
+                      <div class="person-two d-flex col-4 align-items-center">
+                          <div class="person-image col-6">
+                              <img src="/img/mand-holding-cup.jpg" alt="">
+                          </div>
+                          <div class="person-description">
+                              <h3>Brady Jones</h3>
+                              <p>CEO, Rondo Company</p>
+                          </div>
+                      </div></li>
+                    <li class="slider splide__slide">                      <p class="col-8 mx-auto">Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit rhoncus. Donec interdum ante a tellus convallis consequat. In facilisis a lorem sit amet venenatis. Integer imperdiet eget massa consectetur feugiat. Pellentesque gravida magna</p>
+                      <div class="person-two d-flex col-4 align-items-center">
+                          <div class="person-image col-6">
+                              <img src="/img/mand-holding-cup.jpg" alt="">
+                          </div>
+                          <div class="person-description">
+                              <h3>Brady Jones</h3>
+                              <p>CEO, Rondo Company</p>
+                          </div>
+                      </div></li>
+                  </ul>
+                </div>
+              </div>
+          </section>
+          <section class="posts col-9 mx-auto">
+              <h1 class=" col-12 col-lg-7 mx-auto text-center mb-5">Our latest articles
+                daily update</h1>
+                <article class="posts-contain d-flex justify-content-between flex-column flex-lg-row">
+                    <div class="main-post col-12  col-lg-6">
+                        <img src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/passenger-airplane-is-flying-over-clouds-at-sunset-768x527.jpg" alt="">
+                        <div class="post-description d-flex col-7 justify-content-between">
+                          <p class="date col-3">
+                              28 Jan 2021
+                          </p>
+                          <p class="blogger col-3">
+                              merkulove
+                          </p>
+                          <p class="theme col-3">
+                              cargo  
+                          </p>
+                        </div>
+                        <div class="posts-contain">
+                            <h3>
+                                Air And Sea Transport Are Available  
+                            </h3>
+                            <p>
+                                Vivamus eu luctus nulla. Nam sollicitudin quam ac venenatis venenatis. Vivamus ornare velit a eros imperdiet, ac cursus elit
+                            </p>
+                        </div>
+                    </div>
+                    <div class="other-posts col-12 col-lg-5">
+                      <div class="d-flex flex-column flex-lg-row mb-5 justify-content-between">
+                        <img class="col-12 col-lg-5" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/warehouse-or-storage-and-shelves-with-cardboard-boxes-industria-1024x512.jpg" alt="">
+
+                        <div class="col-12 col-lg-6  other-posts-description">
+                          <div class="post-description col-3 col-lg-12 d-flex justify-content-between">
+                            <p class="date">
+                                28 Jan 2021
+                            </p>
+                           
+                            <p class="theme">
+                                cargo  
+                            </p>
+                          </div>
+                          <div class="posts-contain">
+                           <h3>
+                             Air Transport May Be Public Operators
+                           </h3>
+                           <p>
+                             Phasellus commodo felis felis, quis blandit metus rutrum sit amet
+                           </p>
+                        </div>
+                
+                      </div>
+                      </div>
+                      <div class="d-flex flex-column flex-lg-row mb-5 justify-content-between">
+                        <img class="col-12 col-lg-5" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cargo-boxes-storing-at-warehouse-shelves-1536x1024.jpg" alt="">
+
+                        <div class="col-12 col-lg-6 other-posts-description">
+                          <div class="post-description col-3 col-lg-12 d-flex justify-content-between">
+                            <p class="date">
+                                28 Jan 2021
+                            </p>
+                          
+                            <p class="theme">
+                                cargo  
+                            </p>
+                          </div>
+                          <div class="posts-contain">
+                           <h3>
+                             Factory Transport May Be Public Operators
+                           </h3>
+                           <p>
+                             Phasellus commodo felis felis, quis blandit metus rutrum sit amet
+                           </p>
+                       </div>
+                        </div>
+                      
+                      </div>
+                      <div class="d-flex flex-column flex-lg-row mb-5 justify-content-between">
+                        <img class="col-12 col-lg-5" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/airplane-is-flying-over-the-clouds-at-sunset-in-summer-aircraft-768x523.jpg" alt="">
+                        <div class="col-12 col-lg-6 other-posts-description">
+                        
+                          <div class=" post-description col-3 col-lg-12 d-flex justify-content-between">
+                            <p class="date">
+                                28 Jan 2021
+                            </p>
+                           
+                            <p class="theme">
+                                cargo  
+                            </p>
+                          </div>
+                          <div class="posts-contain">
+                           <h3>
+                             Passenger Transport May Public Operators
+                           </h3>
+                           <p>
+                             Phasellus commodo felis felis, quis blandit metus rutrum sit amet
+                           </p>
+                       </div>
+                        </div>
+                
+                      </div> 
+                   </div>
+                </article>
+          </section>
+      </main>
+      <script src="main.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+    <script type="text/javascript">
+
+ 
+    $(`.counter`).counterUp({
+     delay:10,
+     time:1000
+   
+})
+    </script>
+    <script>
+      document.addEventListener( 'DOMContentLoaded', function() {
+        var splide = new Splide( '.splide' );
+        splide.mount();
+      } );
+    </script>
+    <footer >
+        <article class="map">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="1500"
+                    height="500"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D1%81%D0%BE%D1%84%D0%B8%D1%8F%201%20varna&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  ><a href="https://123movies-to.org">123 movies</a><br /><style>
+                    .mapouter {
+                      position: relative;
+                      text-align: right;
+                      height: 500px;
+                      width: 1500px;
+                    }</style
+                  ><a href="https://www.embedgooglemap.net"
+                    >embedding google maps in webpage</a
+                  ><style>
+                    .gmap_canvas {
+                      overflow: hidden;
+                      background: none !important;
+                      height: 500px;
+                      width: 1500px;
+                    }
+                  </style>
+                </div>
+              </div>
+        </article>
+        <article class="footer-contain col-9 mx-auto d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center pb-5">
+            <div class="footer-social col-2">
+                <nav>
+                    <ul class="d-flex justify-content-between">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-logo col-4 col-lg-2 mb-3 mb-lg-0 d-flex justify-content-between align-items-center">
+                <img class="col-5" src="https://rolso.elipso.site/wp-content/uploads/sites/20/2021/01/cropped-rolso-logo_light.png" alt="">
+                <p class="col-6 my-0">Rolso</p>
+            </div>
+            <p class="col-12 text-center">All rights reserved Copyrights 2021</p>
+        </article>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+* {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+  color: white;
+}
+
+footer .footer-content {
+  padding-top: 3%;
+}
+
+footer .footer-content .subscribe .ask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-content .subscribe .ask input {
+  background: transparent;
+  color: white;
+  border-color: white;
+  padding: 5px 12px;
+}
+
+footer .footer-content .subscribe .ask input::-webkit-input-placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask input:-ms-input-placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask input::-ms-input-placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask input::placeholder {
+  color: white;
+}
+
+footer .footer-content .subscribe .ask button {
+  background: #00008e;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+footer .footer-content .subscribe .ask button i {
+  color: white;
+  font-size: 26px;
+}
+
+footer .footer-content .footer-quick-menu nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-content .footer-quick-menu nav ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  font-weight: bold;
+  padding: 5px;
+}
+
+footer .footer-content .footer-quick-menu nav ul li {
+  cursor: pointer;
+}
+
+footer .footer-contacts {
+  padding-bottom: 3%;
+  margin-top: 5%;
+}
+
+footer .footer-contacts img {
+  padding-right: 10px;
+}
+
+footer .footer-contacts .phone {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-contacts .phone .phone-info p {
+  margin: 0;
+}
+
+footer .footer-contacts .phone .phone-info p:nth-child(2) {
+  font-weight: bold;
+}
+
+footer .footer-contacts .location {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer .footer-contacts .location img {
+  padding-right: 10px;
+}
+
+footer .footer-contacts .location .location-info p {
+  margin: 0;
+}
+
+footer .footer-contacts .location .location-info p:nth-child(2) {
+  font-weight: bold;
+}
+
+footer .footer-contacts .email {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-contacts .email img {
+  padding-right: 10px;
+}
+
+footer .footer-contacts .email .email-info p {
+  margin: 0;
+}
+
+footer .footer-contacts .email .email-info p:nth-child(2) {
+  font-weight: bold;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+
+.social-media-icons div {
+  text-align: center;
+  padding: 5px;
+  border-radius: 100px;
+  background: white;
+}
+
+.social-media-icons div a {
+  color: #00008e;
+}
+
+.social-media-icons div:hover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-box-shadow: 0 0 0 3px rgba(94, 156, 227, 0.16), 0 0 0 7px rgba(4, 38, 76, 0.22);
+          box-shadow: 0 0 0 3px rgba(94, 156, 227, 0.16), 0 0 0 7px rgba(4, 38, 76, 0.22);
+}
+/*# sourceMappingURL=footer.css.map */

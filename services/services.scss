@@ -1,0 +1,89 @@
+@import "../home/footer.scss";
+@import"../home/header.scss";
+@import"../warehouse/bestServices.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+  display: none;
+}
+#nav-click:hover{
+  .main-hidden{
+    display: block;
+  }
+}
+@mixin flexcenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background-color: $background;
+  }
+  $background: linear-gradient(
+    135deg,
+    rgba(0, 0, 142, 0.8) 0%,
+    rgba(1, 114, 128, 0.8) 100%
+  );
+  $primaryBtn: #0f0fb1;
+  $secondaryBtn: #00008e;
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+header{
+    padding-bottom: 20%;
+}
+main{
+    .services{
+        text-align: center;
+        margin: auto;
+        z-index: 1;
+        position: relative;
+        bottom: 85px;
+        background: white;
+        padding: 3% 0;
+        box-shadow:0px 0px 12px 0px rgba(0,0,0,0.5);
+        h1{
+            color: #19456B;
+            font-size: 78px;
+        }
+    }
+    .pages-navigation{
+      nav{
+        ul{
+          list-style: none;
+          padding: 0;
+          li{
+            margin: 0 5px;
+            a{
+              text-decoration: none;
+              color: black;
+              padding: 5px 10px;
+            }
+          }
+        }
+        .focused{
+          border-radius: 200px;
+          background-color: #00008E;
+          color: white;
+        }
+        ul::before{
+          font-family: "Font Awesome 5 Free";
+          content: "\f100";
+          color: #00008E;
+          font-size:17px ;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        ul::after{
+          font-family: "Font Awesome 5 Free";
+          content: "\f101";
+          color: #00008E;
+          font-size:17px ;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+}

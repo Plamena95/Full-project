@@ -1,0 +1,557 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url(footer.scss);
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+* {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  position: relative;
+}
+
+header .company-name {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  padding: 2% 0;
+}
+
+header .company-name .options button:nth-child(1) {
+  background: #0f0fb1;
+  border: none;
+  color: white;
+  padding: 5px 30px;
+}
+
+header .company-name .options button:nth-child(1):hover {
+  background: #00008E;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+}
+
+header .company-name .options button:nth-child(2):hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+}
+
+header .company-name .options button:nth-child(2) {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
+}
+
+header .nav {
+  border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+header .nav nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .nav nav ul li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid #ffcc29;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .nav nav ul li {
+  color: white;
+}
+
+header .nav nav ul li a {
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+header .nav nav ul ul li {
+  background: white;
+  color: black;
+  border-left: 2px solid #0f0fb1;
+}
+
+header .nav nav ul ul li a {
+  color: black;
+}
+
+header .nav nav ul ul li a:hover {
+  border: none;
+}
+
+header .nav nav ul ul li:hover {
+  background: #0f0fb1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .nav nav ul ul li:hover a {
+  color: white;
+}
+
+header .nav nav ul .home:hover ul {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  display: block;
+}
+
+header .nav nav ul .about:hover ul {
+  display: block;
+}
+
+header .nav nav ul .about:hover ul .nav {
+  border: none;
+}
+
+header .nav nav ul .services:hover ul {
+  display: block;
+}
+
+header .nav nav ul .services:hover ul .nav {
+  border: none;
+}
+
+header .nav article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+header .nav article p {
+  font-size: 13px;
+  margin: 0;
+}
+
+header .nav-bar {
+  color: white;
+  font-size: 35px;
+}
+
+header .header-main {
+  padding: 15% 0;
+  margin: auto;
+  color: white;
+}
+
+header .header-main h1 {
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 92px;
+}
+
+header .header-main .consultation-buttons button:nth-child(1) {
+  background: #0f0fb1;
+  border: none;
+  padding: 5px 30px;
+  color: white;
+  font-size: 13px;
+}
+
+header .header-main .consultation-buttons button:nth-child(2) {
+  background: #00008e;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  font-size: 13px;
+}
+
+header .header-main .consultation-buttons button:nth-child(2) i {
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+header .header-main .consultation-buttons:hover button {
+  background: #00008e;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+}
+
+header .company-name-image img {
+  position: absolute;
+  z-index: 1;
+  bottom: 10%;
+  right: 0;
+}
+
+.small-menu {
+  position: fixed;
+  height: 100%;
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 100;
+  top: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+}
+
+.small-menu .small-menu-follow-section {
+  color: white;
+  background: rgba(255, 255, 255, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: rotate(-90deg) translateX(100px);
+          transform: rotate(-90deg) translateX(100px);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  max-width: 300px;
+  max-height: 50px;
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  padding: 5px;
+}
+
+.small-menu .close-button {
+  text-align: end;
+  margin-top: 5%;
+}
+
+.small-menu .close-button i {
+  color: white;
+  font-size: 20px;
+}
+
+.small-menu .small-menu-content {
+  width: 100%;
+  height: 100%;
+}
+
+.small-menu .small-menu-content ul {
+  list-style: none;
+  padding: none;
+  width: 50%;
+  height: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.small-menu .small-menu-content ul li {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.small-menu .small-menu-content ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.small-menu .small-menu-content ul i {
+  color: white;
+}
+
+.main-hidden {
+  display: none;
+}
+
+#nav-click:hover .main-hidden {
+  display: block;
+}
+
+.home-header {
+  bottom: 100px;
+}
+
+.home-header .freight {
+  background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+  color: white;
+  padding: 50px;
+}
+
+.home-header .freight h6 {
+  font-weight: 800;
+  font-size: 22px;
+  color: white;
+}
+
+.home-header section {
+  padding: 50px;
+  background: white;
+}
+
+.home-header section h6 {
+  font-weight: 800;
+  font-size: 22px;
+  color: #19456B;
+}
+
+main .transporterium .transporterium-contain h1 {
+  color: #19456B;
+  font-weight: 800;
+  font-size: 56px;
+}
+
+main .transporterium .transporterium-contain .packages,
+main .transporterium .transporterium-contain .history {
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+          box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+}
+
+main .services {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.6) 0%, rgba(1, 114, 128, 0.6) 100%);
+  color: white;
+  padding: 15%;
+  margin-top: 7%;
+}
+
+main .services h4 {
+  font-weight: 800;
+  font-size: 56px;
+}
+
+main .services p strong {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+main .services .years p:nth-child(1) {
+  font-size: 58px;
+}
+
+main .appointment {
+  position: relative;
+  bottom: 100px;
+}
+
+main .appointment .appointment-header {
+  background: #FFCC29;
+  color: #19456B;
+  padding: 5px 20px;
+}
+
+main .appointment .appointment-header p {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+main .appointment .appoitment-contain {
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.5);
+  background: white;
+}
+
+main .appointment .appoitment-contain h6,
+main .appointment .appoitment-contain p {
+  margin: 0;
+}
+
+main .appointment .appoitment-contain input,
+main .appointment .appoitment-contain select {
+  border: 1px solid #E1E1E1;
+}
+
+main .appointment .appoitment-contain .button button {
+  background: #0f0fb1;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+}
+
+main .steps h1 {
+  color: #19456B;
+  font-weight: 800;
+  font-size: 56px;
+}
+
+main .steps div:nth-child(1) h6,
+main .steps div:nth-child(3) h6 {
+  color: #19456B;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+main .steps div:nth-child(1) p:nth-child(1),
+main .steps div:nth-child(3) p:nth-child(1) {
+  font-size: 200px;
+  font-weight: 700;
+  color: #00008E;
+  opacity: 0.3;
+  position: relative;
+  right: 15%;
+  height: 116px;
+  bottom: 14%;
+}
+
+main .steps div:nth-child(2) h6 {
+  color: #19456B;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+main .steps div:nth-child(2) p:nth-child(1) {
+  position: relative;
+  right: 15%;
+  font-size: 200px;
+  font-weight: 700;
+  color: #017280;
+  opacity: 0.3;
+  height: 190px;
+}
+
+main .consultation .consultation-description {
+  padding: 8% 5%;
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  color: white;
+}
+
+main .consultation .consultation-description h5 {
+  font-weight: 800;
+}
+
+main .consultation .consultation-description .contact h1 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+main .consultation .consultation-images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+main .feedback h1 {
+  font-weight: 800;
+  font-size: 56px;
+  color: #19456B;
+}
+
+main .feedback h1 strong {
+  color: #0F0FB1;
+}
+
+main .feedback .praise {
+  -webkit-box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+          box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+}
+
+main .feedback .praise .person-image {
+  background-image: url("/img/portrait-beautiful-young-woman-standing-grey-wall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .feedback .feedback-images div img {
+  border: 1px solid lightgray;
+}
+
+main .posts h1 {
+  color: #19456B;
+  font-weight: 800;
+  font-size: 56px;
+}
+
+main .posts .posts-contain .main-post .post-description .theme::after,
+main .posts .posts-contain .other-posts .post-description .theme::after {
+  font-family: "Font Awesome 5 Free";
+  contain: "\f07b";
+  font-weight: bold;
+  color: #00008E;
+  padding-right: 5px;
+}
+
+main .posts .posts-contain .main-post img,
+main .posts .posts-contain .other-posts img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .posts .posts-contain .main-post .post-description .blogger::after,
+main .posts .posts-contain .other-posts .post-description .blogger::after {
+  font-family: "Font Awesome 5 Free";
+  contain: "\f133";
+  font-weight: bold;
+  color: #00008E;
+  padding-right: 5px;
+}
+
+main .posts .posts-contain .main-post .posts-contain h3,
+main .posts .posts-contain .other-posts .posts-contain h3 {
+  color: #19456B;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+footer {
+  background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+}
+
+footer .footer-contain {
+  color: white;
+}
+
+footer .footer-contain .footer-social nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer-contain .footer-social nav ul li a {
+  text-decoration: none;
+  color: #E1E1E1;
+  font-size: 24px;
+}
+
+footer .footer-contain .footer-logo p {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.slider {
+  height: 300px;
+}
+
+.slider p:nth-child(1) {
+  -webkit-box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+          box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+  padding: 40px 20px;
+}
+
+.slider .person-one,
+.slider .person-two {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  z-index: 1;
+}
+/*# sourceMappingURL=homethree.css.map */

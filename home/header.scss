@@ -1,0 +1,194 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@import url(footer.scss);
+@mixin header(){
+  text-align: center;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  bottom: 85px;
+  background: white;
+  padding: 3% 0;
+  box-shadow:0px 0px 12px 0px rgba(0,0,0,0.5);
+  h1{
+      color: #19456B;
+      font-size: 78px;
+  }
+}
+@mixin flexcenter($direction, $background) {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+  background-color: $background;
+}
+$background: linear-gradient(
+  135deg,
+  rgba(0, 0, 142, 0.8) 0%,
+  rgba(1, 114, 128, 0.8) 100%
+);
+$primaryBtn: #0f0fb1;
+$secondaryBtn: #00008e;
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  .company-name {
+    justify-content: space-between;
+    margin: auto;
+    padding: 2% 0;
+    .options button:nth-child(1){
+      background: $primaryBtn;
+      border: none;
+      color: white ;
+      padding:5px 30px;
+    }
+    .options button:nth-child(1):hover{
+      background: #00008E;
+      transition: 0.5s;
+      -ms-transform: scale(1.11489, 1.10915);
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+    }
+    .options button:nth-child(2):hover{
+      transition: 0.5s;
+      -ms-transform: scale(1.11489, 1.10915);
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+    }
+    .options button:nth-child(2){
+      background: none;
+      border: 1px solid white;
+      color: white ;
+      padding:5px 30px;
+    }
+  }
+  background: $background;
+  position: relative;
+  .nav {
+    border-bottom: 1px solid white;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: auto;
+   nav{
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li:hover {
+        cursor: pointer;
+        border-bottom: 3px solid #ffcc29;
+        transition: 0.5s;
+      }
+      li{
+        color: white;
+        a{
+          color: white;
+          text-decoration: none;
+          border: none;
+        }
+      }
+
+      ul{
+       
+        li{
+          background: white;
+          color: black;
+          border-left:2px solid $primaryBtn;
+          a{
+            color: black;
+          }
+          a:hover{
+            border: none;
+          }
+        }
+        li:hover{
+          background: $primaryBtn;
+          transition: 0.5s;
+          a{
+            color: white;
+          }
+        }
+      }
+      .home:hover ul{
+        transition: 0.5s ease;
+        display: block;
+      }
+      .about:hover ul{
+        display: block;
+        .nav{
+          border: none;
+        }
+      }
+      .services:hover ul{
+        display: block;
+        .nav{
+          border: none;
+        }
+      }
+    }
+   }
+    article {
+      display: flex;
+      align-items: end;
+      p {
+        font-size: 13px;
+        margin: 0;
+      }
+    }
+  }
+  .nav-bar{
+    color: white;
+    font-size: 35px;
+  }
+  .header-main {
+    padding: 15% 0;
+    margin: auto;
+    color: white;
+    h1{
+      font-size: 78px;
+      font-weight: 700;
+      line-height: 92px;
+    }
+    .consultation-buttons {
+      button:nth-child(1) {
+        background: $primaryBtn;
+        border: none;
+        padding: 5px 30px;
+        color: white;
+        font-size: 13px;
+      }
+      button:nth-child(2) {
+        background: $secondaryBtn;
+        border: none;
+        padding: 5px 15px;
+        color: white;
+        font-size: 13px;
+        i{
+          color: white;
+          font-weight: 900;
+          font-size: 18px;
+        }
+      }
+    }
+    .consultation-buttons:hover button{
+      background: $secondaryBtn;
+      transition: 0.5s;
+      -ms-transform: scale(1.11489, 1.10915);
+  -webkit-transform: scale(1.11489, 1.10915);
+  transform: scale(1.11489, 1.10915);
+    }
+  }
+  .company-name-image {
+    img {
+      position: absolute;
+      z-index: 1;
+      bottom: 10%;
+      right: 0;
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.prices-plans article {
+  -webkit-box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+          box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+  padding: 30px 20px;
+}
+
+.prices-plans article .header p:nth-child(1) {
+  color: #19456b;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.prices-plans article .header p:nth-child(2) {
+  color: #017280;
+  font-weight: 700;
+}
+
+.prices-plans article .monthly-price {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 20px;
+}
+
+.prices-plans article .monthly-price p:nth-child(1) {
+  color: #2e8995;
+  font-size: 18px;
+  margin: 0;
+}
+
+.prices-plans article .monthly-price p:nth-child(1) strong {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.prices-plans article .monthly-price p:nth-child(2) {
+  color: #6d6d6d;
+  margin: 0;
+}
+
+.prices-plans article .description ul {
+  list-style: none;
+}
+
+.prices-plans article .description ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  padding-right: 5px;
+}
+
+.prices-plans article .buy-button button {
+  background: #0F0FB1;
+  color: white;
+  padding: 5px 40px;
+  border: none;
+}
+
+.prices-plans .full-pack .header p:nth-child(2) {
+  color: #0F0FB1;
+}
+
+.prices-plans .full-pack .monthly-price p:nth-child(1) {
+  color: #0F0FB1;
+}
+
+.prices-plans .full-pack .description ul li:nth-child(2) {
+  font-weight: bold;
+}
+
+.different {
+  background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+  -webkit-box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+          box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+}
+/*# sourceMappingURL=prices-plans.css.map */

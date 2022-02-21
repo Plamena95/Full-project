@@ -1,0 +1,141 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+@mixin flexcenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background-color: $background;
+  }
+  $background: linear-gradient(
+    135deg,
+    rgba(0, 0, 142, 0.8) 0%,
+    rgba(1, 114, 128, 0.8) 100%
+  );
+  $primaryBtn: #0f0fb1;
+  $secondaryBtn: #00008e;
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+footer{
+    background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+    color: white;
+    .footer-content{
+        padding-top: 3%;
+        .subscribe{
+            .ask{
+                display: flex;
+                input{
+                    background: transparent;
+    color: white;
+    border-color: white;
+    padding: 5px 12px;
+                }
+                input::placeholder{
+                    color: white;
+                }
+                button{
+                    background: $secondaryBtn;
+                    color: white;
+                    border: none;
+                    padding: 10px;
+                    i{
+                        color: white;
+                        font-size: 26px;
+                      
+                    }
+                }
+            }
+        }
+        .footer-quick-menu{
+            nav{
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    li::before{
+                        font-family: "Font Awesome 5 Free";
+                        content: "\f0da";
+                        font-weight: bold;
+                        padding: 5px;
+                    }
+                    li{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        
+    }
+    .footer-contacts{
+        padding-bottom: 3%;
+        margin-top: 5%;
+        img{
+            padding-right:10px;
+        }
+        .phone{
+            padding: 20px;
+            background:rgba(255, 255, 255, 0.1);
+            .phone-info{
+                p{
+                    margin: 0;
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                }
+            }
+            
+        }
+        .location{
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            img{
+                padding-right:10px;
+            }
+            .location-info{
+                p{
+                    margin: 0;
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                }
+            }
+        }
+        .email{
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            img{
+                padding-right:10px;
+            }
+            .email-info{
+                p{
+                    margin: 0;
+                }
+                p:nth-child(2){
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .copyright{
+        p{
+            margin: 0;
+        }
+    }
+}
+.social-media-icons{
+    div{
+        text-align: center;
+        padding: 5px;
+        border-radius: 100px;
+        background: white;
+        a{
+            color: $secondaryBtn;
+        }
+    }
+    div:hover{
+        transition: 0.6s;
+        box-shadow:0 0 0 3px rgba(94, 156, 227,0.16), 0 0 0 7px rgba(4, 38, 76, 0.22);    }
+}

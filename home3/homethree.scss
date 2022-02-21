@@ -1,0 +1,280 @@
+@import"../home/header.scss";
+@import"../home/small-menu.scss";
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+.main-hidden{
+    display: none;
+  }
+  #nav-click:hover{
+    .main-hidden{
+      display: block;
+    }
+  }
+.home-header{
+    bottom: 100px;
+    .freight{
+        background:linear-gradient(135deg, #00008E 0%, #017280 100%);
+        color: white;
+        padding: 50px;
+        h6{
+            font-weight: 800;
+            font-size: 22px;
+            color: white;
+        }
+    }
+    section{
+        padding: 50px;
+        background: white;
+        h6{
+            font-weight: 800;
+            font-size: 22px;
+            color: #19456B;
+        }
+    }
+}
+main{
+    .transporterium{
+        .transporterium-contain{
+            h1{
+              color: #19456B;
+              font-weight: 800;
+              font-size: 56px;  
+            }
+            .packages,
+            .history{
+                box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262);
+            }
+        }
+    }
+    .services{
+        background: linear-gradient(135deg, rgba(0, 0, 142, 0.6) 0%, rgba(1, 114, 128, 0.6) 100%);
+        color: white;
+        padding: 15%;
+        margin-top: 7%;
+        h4{
+            font-weight: 800;
+            font-size: 56px;
+        }
+        p{
+
+            strong{
+                font-weight: 800;
+                font-size: 48px;
+            }
+        }
+        .years{
+            p:nth-child(1){
+                font-size: 58px;
+            }
+        }
+    }
+    .appointment{
+        position: relative;
+    bottom: 100px;
+        .appointment-header{
+            background: #FFCC29;
+            color: #19456B;
+            padding: 5px 20px;
+            p{
+                font-size: 18px;
+                font-weight: 600;
+                margin: 0;
+            }
+        }
+        .appoitment-contain{
+            h6,
+            p{
+                margin: 0;
+            }
+            input,
+            select{
+                border: 1px solid #E1E1E1;
+            }
+
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0,0.50);
+    background: white;
+    .button{
+        button{
+            background: $primaryBtn;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+        }
+    }
+        }
+    }
+    .steps{
+        h1{
+           color: #19456B;
+           font-weight: 800;
+           font-size: 56px; 
+        }
+        div:nth-child(1),
+        div:nth-child(3){
+            h6{
+                color: #19456B;
+                font-size: 28px;
+                font-weight: 800;
+            }
+            p:nth-child(1){
+                font-size: 200px;
+                font-weight: 700;
+                color:#00008E ;
+                opacity: 0.3;
+                position: relative;
+                right: 15%;
+                height: 116px;
+                bottom: 14%;
+
+            }
+        }
+        div:nth-child(2){
+            h6{
+                color: #19456B;
+                font-size: 28px;
+                font-weight: 800;
+            }
+            p:nth-child(1){
+                position: relative;
+    right: 15%;
+                font-size: 200px;
+                font-weight: 700;
+                color:#017280 ;
+                opacity: 0.3;
+                height: 190px;
+            }
+        }
+    }
+    .consultation{
+        .consultation-description{
+            padding: 8% 5%;
+            background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+            color: white;
+            h5{
+               font-weight: 800; 
+            }
+            .contact{
+                h1{
+                    font-weight: 800;
+                    font-size: 48px;
+
+                }
+            }
+        }
+        .consultation-images{
+            img{
+                object-fit: cover;
+                cursor: pointer;
+            }
+        }
+    }
+    .feedback{
+        h1{
+            font-weight: 800;
+            font-size: 56px;
+            color: #19456B;
+            strong{
+                color: #0F0FB1;
+            }
+        }
+        .praise{
+            box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+          
+                .person-image{
+                    background-image:url("/img/portrait-beautiful-young-woman-standing-grey-wall.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        .feedback-images{
+            div{
+                img{
+                    border: 1px solid lightgray;
+                }
+            }
+        }
+    }
+    .posts{
+      h1{
+          color: #19456B;
+          font-weight: 800;
+          font-size: 56px;
+      }
+      .posts-contain{
+        .main-post,
+        .other-posts{
+            .post-description{
+                .theme::after{
+                    font-family: "Font Awesome 5 Free";
+                    contain: "\f07b";
+                    font-weight: bold;
+                    color: #00008E;
+                    padding-right: 5px;
+                }
+            }
+            img{
+                object-fit: cover;
+            }
+            .post-description{
+                
+                .blogger::after{
+                    font-family: "Font Awesome 5 Free";
+                    contain: "\f133";
+                    font-weight: bold;
+                    color: #00008E;
+                    padding-right: 5px;
+                }
+            }
+            .posts-contain{
+                h3{
+                  color: #19456B; 
+                  font-weight: 800;
+                  font-size: 28px; 
+                }
+            }
+        }
+      }  
+    }
+}
+footer{
+    background: linear-gradient(135deg, #00008E 0%, #017280 100%);
+    .footer-contain{
+        color: white;
+        .footer-social{
+            nav{
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    li{
+                        a{
+                            text-decoration: none ;
+                            color: #E1E1E1;
+                            font-size: 24px;
+
+                        }
+                    }
+                }
+            }
+        }
+        .footer-logo{
+            p{
+                font-weight: 600;
+                font-size: 32px;
+            }
+        }
+    }
+}
+.slider{
+    height: 300px;
+    p:nth-child(1){
+        box-shadow: 0px 2px 25px rgba(0, 0, 142, 0.152619);
+        padding:40px 20px;
+    }
+    .person-one,
+    .person-two{
+        position: absolute;
+left: 20%;
+top: 40%;
+z-index: 1;
+    }
+}

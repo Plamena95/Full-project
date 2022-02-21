@@ -1,0 +1,160 @@
+@import "../home/header.scss";
+@import"../home/footer.scss";
+@import"../prices/prices-plans.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+    display: none;
+  }
+  #nav-click:hover{
+    .main-hidden{
+      display: block;
+    }
+  }
+.prices-header {
+    @include header();
+  }
+  header {
+    padding-bottom: 20%;
+  }
+.service-details-description{
+   .service-contain{
+       .images-container{
+        .main-image{
+            img{
+                height: 500px;
+                object-fit: cover;
+            }
+        }
+          .small-images{
+              div{
+                  height: 150px;
+              }
+              img{
+                  height: 100%;
+              }
+          }
+        .slider-image{
+            background: no-repeat 50%;
+            -webkit-background-size: cover;
+            background-size: cover;
+            height: 200px;
+            width: 500px;
+            margin: auto;
+        } 
+       }
+       .service-contain-lists{
+           .served{
+               p{
+               font-weight: 800;    
+               color:#19456B ;
+               font-size: 22px;
+               }
+               ul{
+                list-style: none;
+                padding: 0%;
+                   li::before{
+                       font-family: "Font Awesome 5 Free";
+                       content:"\f058" ;
+                       font-weight: bold;
+                       color:#00008E ;
+                       font-size: 17px;
+                       padding-right: 5px;
+                   }
+               }
+           }
+           .offered{
+            p{
+            font-weight: 800;    
+            color:#19456B ;
+            font-size: 22px;
+            }
+            ul{
+                padding: 0;
+                list-style: none;
+                li::before{
+                    font-family: "Font Awesome 5 Free";
+                    content:"\f058" ;
+                    font-weight: bold;
+                    color:#017280 ;
+                    font-size: 17px;
+                    padding-right: 5px;
+                }
+            }
+        }
+       }
+       .trucks-details{
+           h1{
+               font-weight: 800;
+               font-size: 48px;
+               color:#19456B ;
+           }
+           .truck-details-contain{
+               div{
+                   h6{
+                     color: #19456B; 
+                     font-weight: 700;
+                     font-size: 28px; 
+                   }
+                   p{
+                       color: #00008E;
+                       font-weight: 500;
+                   }
+               }
+           }
+       }
+   } 
+   .service-sidebar{
+       .services{
+           .services-header{
+               h4{
+                 color: #19456B;
+                 font-weight: 800;
+                 padding: 10px 30px;
+                 box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262) ;  
+               }
+               p{
+                   background:#00008E;
+                   padding: 15px 25px;
+                   color: white;
+               }
+           }
+           ul{
+               list-style: none ;
+
+           }
+       }
+       .contacts{
+        .contacts-header{
+            h4{
+              color: #19456B;
+              font-weight: 800;
+              padding: 10px 30px;
+              box-shadow: 0px 2px 15px rgba(0, 0, 142, 0.100262) ;  
+            }
+            p{
+                background:#017280;
+                padding: 15px 25px;
+                color: white;
+            }
+        }
+        .address,
+        .phone{
+           
+            .info{
+                color: #19456B;
+                font-weight: 800;
+                font-size: 18px;
+            }
+        }
+    }
+   }
+}
+main{
+    .prices{
+        h1{
+            color: #19456B;
+            font-weight: 800;
+            font-size: 56px;
+        }
+    }
+}

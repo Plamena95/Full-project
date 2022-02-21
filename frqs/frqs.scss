@@ -1,0 +1,80 @@
+@import "../home/header.scss";
+@import "../home/footer.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+    display: none;
+  }
+  #nav-click:hover{
+    .main-hidden{
+      display: block;
+    }
+  }
+.faqs-header{
+    @include header();
+}
+header{
+    padding-bottom: 15%;
+}
+main{
+    .content{
+        .faqs-content{
+            .faqs-content-sections{
+                p:nth-child(1){
+                    color: #19456B;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+                i{
+                    color: #2E8995;
+                    padding: 10px 10px;
+                }
+            }
+        }
+        .faqs-contacts{
+                margin-bottom: 10%;
+                z-index: 1;
+                position: relative;
+                bottom: 55px;
+                .phone,
+                .address,
+                .e-mail{
+                    box-shadow:0px 0px 12px 0px rgba(0,0,0,0.5);
+                    background: white;
+                    p{
+                       color: #19456B;
+                       font-weight: 800; 
+                    }
+                
+            }
+        }
+    }
+    .quality{
+
+        background: linear-gradient(121.38deg, rgba(0, 0, 142, 0.7) 13.19%, rgba(1, 114, 128, 0.7) 46.23%, rgba(0, 0, 0, 0.20) 64.85%);                padding: 5%; 
+                h1{
+                  font-weight: 800;
+                  font-size: 48px;
+                  color: white;  
+                }
+              p{
+                  color: white;
+              }
+                    .buttons  button:nth-child(1){
+                        background: #0F0FB1;
+                        color: white;
+                        padding: 5px 40px;
+                        border: none;
+                    }
+                    .buttons button:nth-child(2){
+                        background: #00008E;
+                        color: white;
+                        padding: 5px 10px;
+                        border: none;
+                        font-weight: bold;
+                    }
+                
+            
+        
+    }
+}

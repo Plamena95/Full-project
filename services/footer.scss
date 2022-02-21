@@ -1,0 +1,57 @@
+@mixin flexcenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background-color: $background;
+  }
+  $background: linear-gradient(
+    135deg,
+    rgba(0, 0, 142, 0.8) 0%,
+    rgba(1, 114, 128, 0.8) 100%
+  );
+  $primaryBtn: #0f0fb1;
+  $secondaryBtn: #00008e;
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+footer{
+    background: $background;
+    color: white;
+    .footer-content{
+        padding-top: 3%;
+        .subscribe{
+            .ask{
+                display: flex;
+                input{
+                    background: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 12px;
+                }
+                button{
+                    background: $secondaryBtn;
+                    color: white;
+                    border: none;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .footer-contacts{
+        padding-bottom: 3%;
+    }
+}
+.social-media-icons{
+    div{
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 100px;
+        background: white;
+    }
+}

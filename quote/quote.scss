@@ -1,0 +1,93 @@
+@import"../home/footer.scss";
+@import"../home/header.scss";
+@import "../home/small-menu.scss";
+.main-hidden{
+    display: none;
+  }
+  #nav-click:hover{
+    .main-hidden{
+      display: block;
+    }
+  }
+.contacts-header{
+    @include header();
+}
+header{
+    padding-bottom: 15%;
+}
+main{
+    input:focus-visible,
+    select:focus-visible{
+        outline: none;
+    }
+    .customer-info-container{
+        input{
+            border: 1px solid #E1E1E1;
+ 
+        }
+    }
+  .calculator-form-main{
+      select{
+        border: 1px solid #E1E1E1;
+      }
+      input{
+        border: 1px solid #E1E1E1;
+
+    }
+  }
+  .button{
+    button{
+        background: $primaryBtn;
+        border: none;
+        color: white;
+        padding:5px 20px;
+    }
+}
+        form{
+            div{
+                input{
+                    background: white;
+                    border:#00008E ;
+                    color: #00008E;
+                }
+            }
+        }
+    .quality-services{
+        .quality{
+            background: linear-gradient(135deg, rgba(0, 0, 142, 0.5) 0%, rgba(1, 114, 128, 0.5) 100%);
+            padding: 5%; 
+            h1{
+              font-weight: 800;
+              font-size: 28px;
+              color: white;  
+            }
+          
+                .quality-buttons  button:nth-child(1){
+                    background: #0F0FB1;
+                    color: white;
+                    padding: 5px 40px;
+                    border: none;
+                }
+                .quality-buttons button:nth-child(2){
+                    background: #00008E;
+                    color: white;
+                    padding: 5px 10px;
+                    border: none;
+                    font-weight: bold;
+                }
+            
+        }
+        .transportation{
+            background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);            padding: 5%; 
+            h1{
+              font-weight: 800;
+              font-size: 28px;
+              color: white;  
+            }
+          p{
+              color: white;
+          }
+            
+        }
+    }
+}

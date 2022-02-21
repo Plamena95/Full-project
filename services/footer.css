@@ -1,0 +1,49 @@
+* {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: linear-gradient(135deg, rgba(0, 0, 142, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%);
+  color: white;
+}
+
+footer .footer-content {
+  padding-top: 3%;
+}
+
+footer .footer-content .subscribe .ask {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-content .subscribe .ask input {
+  background: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+
+footer .footer-content .subscribe .ask button {
+  background: #00008e;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+footer .footer-contacts {
+  padding-bottom: 3%;
+}
+
+.social-media-icons div {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 100px;
+  background: white;
+}
+/*# sourceMappingURL=footer.css.map */

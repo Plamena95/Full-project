@@ -1,0 +1,12 @@
+
+/*medium*/
+@media screen and (max-width: 992px) {
+  .numberic{
+      left: 0!important
+  }
+  }
+  
+  /*small*/
+  @media screen and (max-width: 768px) {
+    
+  }
